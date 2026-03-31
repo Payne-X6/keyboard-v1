@@ -1,5 +1,9 @@
 # Custom keyboard
 
+## Preview
+
+You can find full (preview here)[https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FPayne-X6%2Fkeyboard-v1%2Ftree%2Fnew%2Fpcb].
+
 ## Plate
 
 - Foam PCB mute cotton for MX switches 
