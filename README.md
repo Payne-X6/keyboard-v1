@@ -2,7 +2,9 @@
 
 ## Preview
 
-You can find full (preview here)[https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FPayne-X6%2Fkeyboard-v1%2Ftree%2Fmain%2Fpcb].
+You can find full [preview here](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FPayne-X6%2Fkeyboard-v1%2Ftree%2Fmain%2Fpcb).
+
+** In progress **
 
 ## Plate
 
@@ -37,5 +39,5 @@ You can find full (preview here)[https://kicanvas.org/?repo=https%3A%2F%2Fgithub
 ## PCB
 ### MCU
 
-- ATmega32U4
+- STM32F072CBTx
 
