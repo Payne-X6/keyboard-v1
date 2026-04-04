@@ -4144,22 +4144,22 @@
 	)
 	(global_label "Co17"
 		(shape input)
-		(at 181.61 81.28 0)
+		(at 146.05 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1be5a2b9-2e59-4e1e-8b7b-68194639987a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.4332 81.28 0)
+			(at 138.2268 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4760,22 +4760,22 @@
 	)
 	(global_label "Co4"
 		(shape input)
-		(at 146.05 116.84 180)
+		(at 181.61 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f3ee81b7-7331-4395-9517-a342547de662")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4363 116.84 0)
+			(at 188.2237 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
