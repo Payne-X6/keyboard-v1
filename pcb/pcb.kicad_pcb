@@ -5632,7 +5632,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "03df87d7-c373-4e99-bdd4-4a6e45e7c364")
-		(at 257.4925 98.28 -90)
+		(at 249.8725 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D59"
@@ -5819,7 +5819,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "0498ab34-6be3-4017-ba16-8423dd579880")
-		(at 176.53 79.23 -90)
+		(at 168.91 74 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D37"
@@ -6006,7 +6006,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "04ac80e9-3e50-4f67-9be9-41d8cbad5615")
-		(at 314.6425 117.33 -90)
+		(at 307.0225 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D79"
@@ -6193,7 +6193,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "05b1ed6b-12d0-4f5e-86ac-0c48fc9411e5")
-		(at 162.2425 117.33 -90)
+		(at 154.6225 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D72"
@@ -12489,7 +12489,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "1032c0b0-e36e-46b4-9657-71f6d603d5b6")
-		(at 314.6425 98.28 -90)
+		(at 307.0225 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D62"
@@ -12676,7 +12676,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "11da573f-e15b-499d-a62b-2da1ebdf4dd3")
-		(at 219.3925 117.33 -90)
+		(at 211.7725 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D75"
@@ -16422,7 +16422,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "206d37ec-6614-4b31-bdef-2dabcceca740")
-		(at 286.0675 117.33 -90)
+		(at 278.4475 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D78"
@@ -16609,7 +16609,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "2072dddd-8d30-4afd-bf8f-085359ff05f3")
-		(at 66.9925 98.28 -90)
+		(at 59.3725 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D49"
@@ -19157,7 +19157,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "2ac5a592-551f-48f9-b863-d71ded0f98c4")
-		(at 352.7425 136.38 -90)
+		(at 345.1225 131 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D98"
@@ -19531,7 +19531,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "2c77cdd5-c9c8-4e50-a1a6-6337c573174b")
-		(at 86.0425 98.28 -90)
+		(at 78.4225 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D50"
@@ -20051,7 +20051,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "2fd2719c-4dfb-4dfe-b146-014fb2b56426")
-		(at 295.5925 98.28 -90)
+		(at 287.9725 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D61"
@@ -20838,7 +20838,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "300943ba-2e9b-4df3-b9ca-ee5678252c6c")
-		(at 333.6925 117.33 -90)
+		(at 326.0725 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D80"
@@ -22225,7 +22225,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "32d4a03c-bede-46c5-affd-d59bc78a7963")
-		(at 124.1425 98.28 -90)
+		(at 116.5225 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D52"
@@ -22786,7 +22786,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "365d0526-299d-49c4-be7d-629b06b55a4c")
-		(at 371.7925 145.905 -90)
+		(at 364.1725 141 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D99"
@@ -24652,7 +24652,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "3be4eaca-1b4e-4fa2-9f00-987c89e0cc26")
-		(at 43.18 79.23 -90)
+		(at 35.56 74 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D30"
@@ -24985,7 +24985,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "3f271d4b-d358-4910-a77d-d70e3869a0b6")
-		(at 81.28 79.23 -90)
+		(at 73.66 74 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D32"
@@ -26378,7 +26378,7 @@
 		(property "Reference" "D45"
 			(at 0 1.17 90)
 			(layer "B.SilkS")
-			(uuid "581cd4bc-eca5-447a-8b32-e7e20bf2888f")
+			(uuid "ea9bf4e7-d3cc-4d23-a72e-2cd960507515")
 			(effects
 				(font
 					(size 1 1)
@@ -26390,7 +26390,7 @@
 		(property "Value" "D"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
-			(uuid "6b1cce54-3fd0-44d2-8e1c-3308f233dbbd")
+			(uuid "0afd66da-07a5-484f-9385-33e15f86096b")
 			(effects
 				(font
 					(size 1 1)
@@ -26403,7 +26403,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2080903e-db94-4196-95d5-59d60ff0bbd9")
+			(uuid "3df9d8be-a006-4b96-a4ce-64d93cb9bfd1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26416,7 +26416,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1cdc207c-7d7d-45be-9b95-8bb1a296d9a0")
+			(uuid "b5d4c19c-3cff-48bc-803a-19cb3f1df3ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28320,7 +28320,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "503ae17c-40f1-4213-8f5b-deddbbf18d61")
-		(at 124.1425 117.33 -90)
+		(at 116.5225 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D70"
@@ -28694,7 +28694,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "541c9f42-ed66-455c-93fb-2963b6010d7d")
-		(at 276.5425 98.28 -90)
+		(at 268.9225 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D60"
@@ -28881,7 +28881,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "55acb3ee-a7b0-4eea-8fa6-e56af72fd05e")
-		(at 271.78 79.23 -90)
+		(at 264.16 74 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D42"
@@ -29668,7 +29668,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "5713e781-161f-4627-99c2-da6e06bf1698")
-		(at 45.56125 117.33 -90)
+		(at 37.94125 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D66"
@@ -37203,7 +37203,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "6c2d0606-6aa9-47b3-8467-738d4d9f4761")
-		(at 119.38 79.23 -90)
+		(at 111.76 74 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D34"
@@ -38777,7 +38777,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "6e7c9d9b-409d-40c1-99b6-c6cb98fe24e7")
-		(at 219.3925 98.28 -90)
+		(at 211.7725 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D57"
@@ -40164,7 +40164,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "72205aa7-bfb2-4dd3-a4f1-4baf1b51464a")
-		(at 143.1925 117.33 -90)
+		(at 135.5725 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D71"
@@ -41673,7 +41673,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "76039e42-132c-4603-a8d7-033307af0a4f")
-		(at 238.4425 117.33 -90)
+		(at 230.8225 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D76"
@@ -42793,7 +42793,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "771dfd2d-a23f-451e-9aef-dba9c5cfeb5b")
-		(at 100.33 79.23 -90)
+		(at 92.71 74 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D33"
@@ -44780,7 +44780,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "806ee7aa-432c-407f-9123-8b4b1b06b3e8")
-		(at 352.7425 98.28 -90)
+		(at 345.1225 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D64"
@@ -46874,7 +46874,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "89a1790c-4bdb-4a3f-992b-70e66096cbeb")
-		(at 143.1925 98.28 -90)
+		(at 135.5725 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D53"
@@ -49048,7 +49048,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "8de852ce-e793-4ff4-9e3c-e0cbf2d29b45")
-		(at 200.3425 117.33 -90)
+		(at 192.7225 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D74"
@@ -49981,7 +49981,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "90760f28-6030-40fb-b6ff-45bc46f72033")
-		(at 138.43 79.23 -90)
+		(at 130.81 74 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D35"
@@ -50168,7 +50168,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "907a1f7a-e632-45e2-af27-b62ac99945d7")
-		(at 314.6425 79.23 -90)
+		(at 307.0225 74 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D44"
@@ -55303,7 +55303,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "9bbc4154-6260-4a96-9ed5-2c4c201a629a")
-		(at 62.23 79.23 -90)
+		(at 54.61 74 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D31"
@@ -56090,7 +56090,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "9e0b219f-6965-485e-900d-7b35af4bded0")
-		(at 352.7425 117.33 -90)
+		(at 345.1225 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D81"
@@ -56277,7 +56277,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "9e57f7b8-e805-408a-b4c4-1e758d75d12c")
-		(at 293.21125 79.23 -90)
+		(at 285.59125 74 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D43"
@@ -57664,7 +57664,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "a1609553-e7a1-4f72-83d5-483707c807c8")
-		(at 105.0925 98.28 -90)
+		(at 97.4725 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D51"
@@ -60251,7 +60251,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "a5f13ee5-7abd-4702-a8d4-242974213778")
-		(at 333.6925 98.28 -90)
+		(at 326.0725 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D63"
@@ -62425,7 +62425,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "a9727a89-d35e-4eaf-85d4-06b8e4e1a3c1")
-		(at 200.3425 98.28 -90)
+		(at 192.7225 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D56"
@@ -63358,7 +63358,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "ad48497b-352e-49c5-ad61-1d70eb0fe9b8")
-		(at 238.4425 98.28 -90)
+		(at 230.8225 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D58"
@@ -66105,7 +66105,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "b1388b09-c63a-4e65-bee4-03119dbdc171")
-		(at 86.0425 117.33 -90)
+		(at 78.4225 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D68"
@@ -74986,7 +74986,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "c7b36277-551a-4ac1-9c3d-8cbc7a3855f7")
-		(at 181.2925 98.28 -90)
+		(at 173.6725 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D55"
@@ -75773,7 +75773,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "cd1b09ab-684d-415d-b779-f58fef4a8841")
-		(at 214.63 79.23 -90)
+		(at 207.01 74 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D39"
@@ -76560,7 +76560,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "cee2711d-2c89-44f1-9fe6-b58875c3f631")
-		(at 252.73 79.23 -90)
+		(at 245.11 74 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D41"
@@ -77308,7 +77308,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "d25b929f-c5ce-41a5-8433-b0e9ee7d231f")
-		(at 233.68 79.23 -90)
+		(at 226.06 74 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D40"
@@ -78372,7 +78372,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "d37d861d-ecd2-486f-a975-183727c9e403")
-		(at 45.56125 98.28 -90)
+		(at 37.94125 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D48"
@@ -80546,7 +80546,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "dcc2e522-47e1-4bdb-9a7e-743af288960d")
-		(at 105.0925 117.33 -90)
+		(at 97.4725 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D69"
@@ -81666,7 +81666,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "df72515f-2843-420d-9191-2f9585cca969")
-		(at 195.58 79.23 -90)
+		(at 187.96 74 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D38"
@@ -82453,7 +82453,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "e1830c55-b971-4c19-a456-11184812d234")
-		(at 66.9925 117.33 -90)
+		(at 59.3725 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D67"
@@ -86201,7 +86201,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "e8d98fe4-e915-445d-8e2b-a9e0340b1ae0")
-		(at 181.2925 117.33 -90)
+		(at 173.6725 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D73"
@@ -87114,13 +87114,13 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "e9aaf08b-e817-49ce-bda3-08c67dc67f8c")
-		(at 157.48 79.23 -90)
+		(at 149.86 74 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D36"
 			(at 0 1.17 90)
 			(layer "B.SilkS")
-			(uuid "d4fa109d-2750-4dfb-a4bb-efb36592614c")
+			(uuid "a411c8e5-8bce-44cc-a74f-01cbfc1c3fc4")
 			(effects
 				(font
 					(size 1 1)
@@ -87132,7 +87132,7 @@
 		(property "Value" "D"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
-			(uuid "65c644e7-d3a3-45bf-ba74-23a3a7976fd7")
+			(uuid "7bbc6ea4-a950-46a2-8b8f-830e9a9965c5")
 			(effects
 				(font
 					(size 1 1)
@@ -87145,7 +87145,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9845a00e-8075-4b6c-93a4-0e60585cbeb9")
+			(uuid "77925ac0-2e65-4dde-bc60-39bef29d3101")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87158,7 +87158,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a54190ea-b67f-4862-886f-b28039b505e1")
+			(uuid "3f3ab970-50a0-4d0b-8c98-202d37901296")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90488,7 +90488,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "f1a248fb-1405-46fa-b2e3-314c201e80ce")
-		(at 371.7925 107.805 -90)
+		(at 364.1725 102 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D65"
@@ -92619,7 +92619,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "fb6a6a29-f8d4-4be2-9492-56cafd4042e9")
-		(at 257.4925 117.33 -90)
+		(at 249.8725 112 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D77"
@@ -92993,7 +92993,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "fca29b58-666e-4873-bb88-673f467eb6ae")
-		(at 162.2425 98.28 -90)
+		(at 154.6225 93 -90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D54"
@@ -95356,6 +95356,14 @@
 		(uuid "bacd4871-357f-4f5e-a590-56f10d8ff493")
 	)
 	(segment
+		(start 35.56 81.28)
+		(end 35.56 74.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 11)
+		(uuid "573f2383-a10d-4c0f-8add-c5dc9935c471")
+	)
+	(segment
 		(start 60.96 59.69)
 		(end 60.96 78.74)
 		(width 0.2)
@@ -95482,6 +95490,22 @@
 		(layer "F.Cu")
 		(net 13)
 		(uuid "c24e2b55-20fc-4b5c-8731-ecd5786afc29")
+	)
+	(segment
+		(start 54.61 81.28)
+		(end 54.61 74.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 14)
+		(uuid "f7c0b156-922b-4179-8043-b4d737220628")
+	)
+	(segment
+		(start 73.66 81.28)
+		(end 73.66 74.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 15)
+		(uuid "073e97ec-d063-477d-b8e4-9966d0394d10")
 	)
 	(segment
 		(start 289.56 59.69)
@@ -95612,6 +95636,14 @@
 		(uuid "e6b909b3-435b-4271-9ccd-a7db4f158edb")
 	)
 	(segment
+		(start 92.71 81.28)
+		(end 92.71 74.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 18)
+		(uuid "7c99beb7-563f-454c-a063-3bf2118249fb")
+	)
+	(segment
 		(start 137.16 40.64)
 		(end 137.16 59.69)
 		(width 0.2)
@@ -95676,6 +95708,22 @@
 		(uuid "ffbfb840-f6d0-4b83-9a7b-b4dc0e3069f6")
 	)
 	(segment
+		(start 111.76 81.28)
+		(end 111.76 74.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 20)
+		(uuid "d0232968-777c-4876-8df9-84cd53b4ec29")
+	)
+	(segment
+		(start 130.81 81.28)
+		(end 130.81 74.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 21)
+		(uuid "71c31d89-86c3-4a54-937d-3b3efc5a99c8")
+	)
+	(segment
 		(start 118.11 59.69)
 		(end 118.11 78.74)
 		(width 0.2)
@@ -95722,6 +95770,14 @@
 		(layer "F.Cu")
 		(net 22)
 		(uuid "e17c8485-227c-4780-b059-929f3c696d33")
+	)
+	(segment
+		(start 149.86 81.28)
+		(end 149.86 74.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 23)
+		(uuid "1906bb61-034d-48d5-961f-241d17daaa52")
 	)
 	(segment
 		(start 308.61 59.69)
@@ -95778,6 +95834,14 @@
 		(layer "F.Cu")
 		(net 24)
 		(uuid "b081f2d6-3837-44d0-aadb-e369038dcd4d")
+	)
+	(segment
+		(start 168.91 81.28)
+		(end 168.91 74.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "a7a13401-7185-4a40-8261-16f812e82324")
 	)
 	(segment
 		(start 44.29125 97.79)
@@ -95860,6 +95924,22 @@
 		(uuid "de44c48b-09d3-47dc-8fd6-6dea4f950e4a")
 	)
 	(segment
+		(start 187.96 81.28)
+		(end 187.96 74.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 28)
+		(uuid "84e6634a-8919-40f6-aae8-214e2b893ddc")
+	)
+	(segment
+		(start 207.01 81.28)
+		(end 207.01 74.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 29)
+		(uuid "6c3e11ab-6cc3-40f2-bce6-8720af965057")
+	)
+	(segment
 		(start 160.9725 83.5025)
 		(end 160.9725 97.79)
 		(width 0.2)
@@ -95906,6 +95986,14 @@
 		(layer "F.Cu")
 		(net 30)
 		(uuid "efc035d5-5320-45f0-b2e8-50e8d46a944b")
+	)
+	(segment
+		(start 226.06 81.28)
+		(end 226.06 74.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 31)
+		(uuid "08a7b87c-ab95-4d72-9ad7-9b90a855b200")
 	)
 	(segment
 		(start 275.2725 97.79)
@@ -95980,6 +96068,14 @@
 		(uuid "e6402d51-a10f-418e-92a9-780a54ca4e4d")
 	)
 	(segment
+		(start 245.11 81.28)
+		(end 245.11 74.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 33)
+		(uuid "707337cc-4a3a-4795-ae1a-e33e7855de7c")
+	)
+	(segment
 		(start 213.36 59.69)
 		(end 213.36 78.74)
 		(width 0.2)
@@ -96026,6 +96122,22 @@
 		(layer "F.Cu")
 		(net 34)
 		(uuid "ed925224-8820-4d3f-acbd-b6d733de8f0f")
+	)
+	(segment
+		(start 264.16 81.28)
+		(end 264.16 74.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 35)
+		(uuid "3ed8e92a-90b3-4606-ba4e-8fddd295f7ef")
+	)
+	(segment
+		(start 307.0225 81.28)
+		(end 307.0225 74.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 36)
+		(uuid "7f5e85c4-e0a4-4e37-8c37-f7b6f058ec42")
 	)
 	(segment
 		(start 91.91625 143.03375)
@@ -96172,6 +96284,70 @@
 		(uuid "cebb3905-000a-4796-bcc9-ef4ef2ba3fe3")
 	)
 	(segment
+		(start 59.3725 100.33)
+		(end 59.3725 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 43)
+		(uuid "a63ca9d5-304e-4795-b827-696692cc5833")
+	)
+	(segment
+		(start 78.4225 100.33)
+		(end 78.4225 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 44)
+		(uuid "299548a7-abc8-48b5-a3d6-ba493fba1759")
+	)
+	(segment
+		(start 97.4725 100.33)
+		(end 97.4725 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 45)
+		(uuid "58875f0c-02b7-44bb-9c50-4db186e875c7")
+	)
+	(segment
+		(start 116.5225 100.33)
+		(end 116.5225 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 46)
+		(uuid "5ff27f9d-0665-477e-bf2d-ded686b27d46")
+	)
+	(segment
+		(start 135.5725 100.33)
+		(end 135.5725 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 47)
+		(uuid "9faba4ae-4719-47eb-9b87-4a2d7d1bbb9b")
+	)
+	(segment
+		(start 154.6225 100.33)
+		(end 154.6225 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 48)
+		(uuid "35770f73-f9a8-4b6d-818f-5525fcdea34d")
+	)
+	(segment
+		(start 173.6725 100.33)
+		(end 173.6725 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 49)
+		(uuid "14eff385-b6f9-48c1-99cb-95dfaddbc12c")
+	)
+	(segment
+		(start 192.7225 100.33)
+		(end 192.7225 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 50)
+		(uuid "620c6b47-d99b-4669-990b-4984a196ce65")
+	)
+	(segment
 		(start 54.61 45.605)
 		(end 54.62 45.615)
 		(width 0.2)
@@ -96226,6 +96402,22 @@
 		(layer "B.Cu")
 		(net 78)
 		(uuid "75da7797-6a4b-4732-b82b-31a6360fb61b")
+	)
+	(segment
+		(start 326.0725 119.38)
+		(end 326.0725 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 79)
+		(uuid "82d003cb-512a-4f91-8ac4-f041a57d707a")
+	)
+	(segment
+		(start 345.1225 119.38)
+		(end 345.1225 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 80)
+		(uuid "ca13070a-8376-48dc-965b-c14cf26f7646")
 	)
 	(segment
 		(start 59.3725 138.43)
@@ -96308,6 +96500,14 @@
 		(uuid "60dacee4-da40-4d5c-acac-7bedfb115c47")
 	)
 	(segment
+		(start 230.8225 100.33)
+		(end 230.8225 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 91)
+		(uuid "fc36d595-52ed-4805-a861-b6ef8b11565d")
+	)
+	(segment
 		(start 268.9225 138.43)
 		(end 268.9225 131.485)
 		(width 0.2)
@@ -96338,6 +96538,22 @@
 		(layer "B.Cu")
 		(net 95)
 		(uuid "bcf56d4b-f1e3-41e8-add4-75506359a8fa")
+	)
+	(segment
+		(start 345.1225 138.43)
+		(end 345.1225 131.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 96)
+		(uuid "1b857245-129e-4679-8d63-42ab5c318f30")
+	)
+	(segment
+		(start 364.1725 147.955)
+		(end 364.1725 141.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 97)
+		(uuid "78801817-4c50-4bbb-9082-b2c3321af5d8")
 	)
 	(segment
 		(start 142.71625 157.48)
@@ -96388,6 +96604,174 @@
 		(uuid "2a622176-73a5-4caf-b157-82c24e65f812")
 	)
 	(segment
+		(start 278.4475 119.38)
+		(end 278.4475 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 103)
+		(uuid "69f9b8bd-9589-40e4-9db6-13366abc3d83")
+	)
+	(segment
+		(start 211.7725 100.33)
+		(end 211.7725 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 104)
+		(uuid "b7d973e9-31b7-4e9d-9e42-c2a7925daf41")
+	)
+	(segment
+		(start 249.8725 100.33)
+		(end 249.8725 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 105)
+		(uuid "e24dc995-6b11-4a79-b6b1-b549c523ae61")
+	)
+	(segment
+		(start 268.9225 100.33)
+		(end 268.9225 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 106)
+		(uuid "274b4f18-4c68-4cc0-a93a-ce6dc884ee2a")
+	)
+	(segment
+		(start 287.9725 100.33)
+		(end 287.9725 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 107)
+		(uuid "9ebf3e50-428c-4189-9607-41d98d5d8200")
+	)
+	(segment
+		(start 307.0225 100.33)
+		(end 307.0225 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 108)
+		(uuid "37ece6bb-2d5b-4758-a282-0e45851b1753")
+	)
+	(segment
+		(start 326.0725 100.33)
+		(end 326.0725 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 109)
+		(uuid "5bf373cc-0979-4073-93d3-470f34a11783")
+	)
+	(segment
+		(start 345.1225 100.33)
+		(end 345.1225 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 110)
+		(uuid "04e7df7f-1716-4e66-84f5-0661661a1d99")
+	)
+	(segment
+		(start 364.1725 109.855)
+		(end 364.1725 102.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 111)
+		(uuid "4da3ffcd-ba33-4e68-85d8-163e4580ee8d")
+	)
+	(segment
+		(start 59.3725 119.38)
+		(end 59.3725 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 112)
+		(uuid "4f483314-be07-495b-8319-a407c8ec4789")
+	)
+	(segment
+		(start 78.4225 119.38)
+		(end 78.4225 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 113)
+		(uuid "661f81a6-cbf2-4b31-9050-91e9b31c2474")
+	)
+	(segment
+		(start 97.4725 119.38)
+		(end 97.4725 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 114)
+		(uuid "ca502076-4974-4a85-a25e-9ddcc7986ff1")
+	)
+	(segment
+		(start 116.5225 119.38)
+		(end 116.5225 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 115)
+		(uuid "ea773e22-e4e1-43c6-919d-6c5cb1167a83")
+	)
+	(segment
+		(start 135.5725 119.38)
+		(end 135.5725 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 116)
+		(uuid "c9c62d46-f131-4891-8a4d-006787bafad1")
+	)
+	(segment
+		(start 307.0225 119.38)
+		(end 307.0225 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 117)
+		(uuid "4a06a30f-fa5d-4340-8418-ffa51113eeef")
+	)
+	(segment
+		(start 154.6225 119.38)
+		(end 154.6225 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 118)
+		(uuid "d4d7cb40-d3fb-4267-aac1-0a3f635c69ff")
+	)
+	(segment
+		(start 173.6725 119.38)
+		(end 173.6725 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 119)
+		(uuid "d047c064-c174-4fa8-8462-e96d20c7d1f5")
+	)
+	(segment
+		(start 192.7225 119.38)
+		(end 192.7225 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 120)
+		(uuid "8fbedc3a-a747-4e2d-a0cd-ea6ac393bedd")
+	)
+	(segment
+		(start 249.8725 119.38)
+		(end 249.8725 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 121)
+		(uuid "f343e1df-883b-4809-b2d8-2c0fc10508ff")
+	)
+	(segment
+		(start 230.8225 119.38)
+		(end 230.8225 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 122)
+		(uuid "1787b6f7-50eb-4405-b6f3-c96481cc4420")
+	)
+	(segment
+		(start 211.7725 119.38)
+		(end 211.7725 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 123)
+		(uuid "1c793a6b-d19b-4720-ad24-dfd6624243a1")
+	)
+	(segment
 		(start 223.67875 157.48)
 		(end 223.67875 150.485)
 		(width 0.2)
@@ -96410,6 +96794,14 @@
 		(layer "B.Cu")
 		(net 126)
 		(uuid "076fa3fd-c3e4-422b-9310-8992e79bf306")
+	)
+	(segment
+		(start 285.59125 81.28)
+		(end 285.59125 74.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 127)
+		(uuid "808b4000-d9ab-40d4-a107-ed8a07cd9bc3")
 	)
 	(segment
 		(start 199.91 150.485)
@@ -96468,6 +96860,22 @@
 		(uuid "21587853-1b91-44ec-ba96-c593034bafe2")
 	)
 	(segment
+		(start 37.94125 100.33)
+		(end 37.94125 93.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 132)
+		(uuid "dff19dd1-8071-43ea-82ef-b94d64c10691")
+	)
+	(segment
+		(start 37.94125 119.38)
+		(end 37.94125 112.485)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 133)
+		(uuid "46700834-3565-46d7-9ab8-0042643f219d")
+	)
+	(segment
 		(start 173.6725 130.515)
 		(end 192.7225 130.515)
 		(width 0.2)
@@ -96500,6 +96908,14 @@
 		(uuid "2eb3ed4d-2309-4ca2-b652-efb3d679c87f")
 	)
 	(segment
+		(start 354.1725 130.515)
+		(end 364.1725 140.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 134)
+		(uuid "4ef36c40-7f07-4047-a3de-7ead85a332cd")
+	)
+	(segment
 		(start 78.4225 130.515)
 		(end 97.4725 130.515)
 		(width 0.2)
@@ -96522,6 +96938,14 @@
 		(layer "B.Cu")
 		(net 134)
 		(uuid "62e9c415-6361-4b51-9433-b19a0d77fd72")
+	)
+	(segment
+		(start 345.1225 130.515)
+		(end 354.1725 130.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 134)
+		(uuid "74369e5c-bb3b-4b26-babf-1ca1b2aaf7df")
 	)
 	(segment
 		(start 116.5225 130.515)
@@ -96556,6 +96980,14 @@
 		(uuid "8ff6e60a-ec08-4608-a19c-aba1cae92397")
 	)
 	(segment
+		(start 326.0725 130.515)
+		(end 345.1225 130.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 134)
+		(uuid "9465c2da-07e3-4511-bf2e-e242448dd4ec")
+	)
+	(segment
 		(start 135.5725 130.515)
 		(end 154.6225 130.515)
 		(width 0.2)
@@ -96586,6 +97018,118 @@
 		(layer "B.Cu")
 		(net 134)
 		(uuid "f913398b-f7a6-4c6f-8702-55daff62dbc7")
+	)
+	(segment
+		(start 264.16 73.515)
+		(end 285.59125 73.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 135)
+		(uuid "179890c9-666c-4fd1-a25f-97fd2cab6aef")
+	)
+	(segment
+		(start 73.66 73.515)
+		(end 92.71 73.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 135)
+		(uuid "1bb80e87-aa32-4250-b8a5-7c63547c6458")
+	)
+	(segment
+		(start 207.01 73.515)
+		(end 226.06 73.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 135)
+		(uuid "3db33d5d-4854-4185-9767-de4db476b438")
+	)
+	(segment
+		(start 187.96 73.515)
+		(end 207.01 73.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 135)
+		(uuid "4c39f7cf-121e-4b89-a815-b3092acfcf52")
+	)
+	(segment
+		(start 130.81 73.515)
+		(end 149.86 73.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 135)
+		(uuid "6afc6ffd-6bbc-47c2-bb44-3f9160738388")
+	)
+	(segment
+		(start 111.76 73.515)
+		(end 130.81 73.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 135)
+		(uuid "7528f3d9-1ffa-46fe-adc2-0223e1ceb172")
+	)
+	(segment
+		(start 149.86 73.515)
+		(end 168.91 73.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 135)
+		(uuid "b0706caf-6b8a-4250-bb2c-7e45f0ffa0a9")
+	)
+	(segment
+		(start 285.59125 73.515)
+		(end 307.0225 73.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 135)
+		(uuid "cdbb987f-befd-42f2-b8db-df832960e6f3")
+	)
+	(segment
+		(start 168.91 73.515)
+		(end 187.96 73.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 135)
+		(uuid "cea59583-ef1c-47cf-b86a-2df5eeb17cfb")
+	)
+	(segment
+		(start 35.56 73.515)
+		(end 54.61 73.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 135)
+		(uuid "da45a266-61da-470a-90ae-696009fffc40")
+	)
+	(segment
+		(start 245.11 73.515)
+		(end 264.16 73.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 135)
+		(uuid "e47933f9-4a6d-4996-95bc-159a8fa3c7e4")
+	)
+	(segment
+		(start 92.71 73.515)
+		(end 111.76 73.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 135)
+		(uuid "f226f334-7526-4163-b694-4b423d58c7fd")
+	)
+	(segment
+		(start 226.06 73.515)
+		(end 245.11 73.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 135)
+		(uuid "f31960ad-6e25-4062-92f7-5883fd57c009")
+	)
+	(segment
+		(start 54.61 73.515)
+		(end 73.66 73.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 135)
+		(uuid "ff41dc8f-20b5-491c-b507-722afed8b592")
 	)
 	(segment
 		(start 37.94125 149.515)
@@ -96674,6 +97218,286 @@
 		(layer "B.Cu")
 		(net 136)
 		(uuid "f6c796cc-b09b-4fbd-98c4-1f2c01ccd399")
+	)
+	(segment
+		(start 116.5225 92.515)
+		(end 135.5725 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "03f3643d-7b5b-4bf8-997f-74f3492d18e3")
+	)
+	(segment
+		(start 230.8225 92.515)
+		(end 249.8725 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "0770420f-677b-458b-8836-eded531991da")
+	)
+	(segment
+		(start 351.741326 92.515)
+		(end 345.1225 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "0a030057-faf1-4e49-b99e-008e7c3b87ce")
+	)
+	(segment
+		(start 173.6725 92.515)
+		(end 192.7225 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "13bcffee-2633-46dc-bf66-feb76a9036dc")
+	)
+	(segment
+		(start 249.8725 92.515)
+		(end 268.9225 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "19e122ad-9ebe-4e03-b554-b22cbf3810d7")
+	)
+	(segment
+		(start 326.0725 92.515)
+		(end 345.1225 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "20a4ecad-51a5-4f0d-9cd2-1f0dff5e29ed")
+	)
+	(segment
+		(start 268.9225 92.515)
+		(end 287.9725 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "291f6d3f-5fa5-4aca-aebe-445b069935f0")
+	)
+	(segment
+		(start 354.964826 95.7385)
+		(end 351.741326 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "3c156488-2a13-4445-b46a-9a2a594b3045")
+	)
+	(segment
+		(start 135.5725 92.515)
+		(end 154.6225 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "3d89076b-2047-4176-9ffc-3006cbdd828c")
+	)
+	(segment
+		(start 78.4225 92.515)
+		(end 97.4725 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "445d326e-8eaa-439a-8d8a-672e9db281d2")
+	)
+	(segment
+		(start 211.7725 92.515)
+		(end 230.8225 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "45e8a3d0-eaf1-400d-b5cb-3cb2c5ac893c")
+	)
+	(segment
+		(start 364.1725 101.515)
+		(end 358.396 95.7385)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "4f312983-9600-491c-b7d7-769683d9a2e4")
+	)
+	(segment
+		(start 192.7225 92.515)
+		(end 211.7725 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "745fe31d-c47d-43b4-b365-64e4678d264a")
+	)
+	(segment
+		(start 307.0225 92.515)
+		(end 326.0725 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "7b4f3fe3-7f42-4368-b245-96a89120ff30")
+	)
+	(segment
+		(start 358.396 95.7385)
+		(end 354.964826 95.7385)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "9ad2f7fd-f034-4c25-913f-194a2fe5dc9d")
+	)
+	(segment
+		(start 37.94125 92.515)
+		(end 59.3725 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "c34ecc5b-dcd4-4935-afa3-946dc1b59054")
+	)
+	(segment
+		(start 154.6225 92.515)
+		(end 173.6725 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "c3c188a3-6272-42df-abce-b3604eecb068")
+	)
+	(segment
+		(start 97.4725 92.515)
+		(end 116.5225 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "de5d364c-97d7-42b3-a41c-5dd47c25fc32")
+	)
+	(segment
+		(start 287.9725 92.515)
+		(end 307.0225 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "f8fc3521-ddfb-4c4d-b5a2-0d821d8ca9d3")
+	)
+	(segment
+		(start 59.3725 92.515)
+		(end 78.4225 92.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 137)
+		(uuid "f9bf97cf-6e46-4bbe-9a47-0861324a2739")
+	)
+	(segment
+		(start 59.3725 111.515)
+		(end 78.4225 111.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 139)
+		(uuid "3334f027-6e0f-4962-bb74-45e08ac1238f")
+	)
+	(segment
+		(start 116.5225 111.515)
+		(end 135.5725 111.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 139)
+		(uuid "3a74d62a-4849-4019-896e-6b9715fb524e")
+	)
+	(segment
+		(start 278.4475 111.515)
+		(end 307.0225 111.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 139)
+		(uuid "4110c1df-a29c-42b7-a5e5-44b6e5779027")
+	)
+	(segment
+		(start 97.4725 111.515)
+		(end 116.5225 111.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 139)
+		(uuid "6ef14f3e-46f3-40d5-be75-eb00dcfad90c")
+	)
+	(segment
+		(start 307.0225 111.515)
+		(end 326.0725 111.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 139)
+		(uuid "70f51e01-9a11-440d-9b5b-b4943228d87c")
+	)
+	(segment
+		(start 326.0725 111.515)
+		(end 345.1225 111.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 139)
+		(uuid "7102ec5e-44cc-4207-9766-dc4ce243a5b7")
+	)
+	(segment
+		(start 78.4225 111.515)
+		(end 97.4725 111.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 139)
+		(uuid "7c58ac13-e927-4a1a-b142-87a896350f5f")
+	)
+	(segment
+		(start 230.8225 111.515)
+		(end 249.8725 111.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 139)
+		(uuid "8f20fe8d-a545-4ba1-bf24-44451ed0f062")
+	)
+	(segment
+		(start 135.5725 111.515)
+		(end 154.6225 111.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 139)
+		(uuid "9896b6df-e46e-4599-af4f-25e861c9bf1c")
+	)
+	(segment
+		(start 173.6725 111.515)
+		(end 192.7225 111.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 139)
+		(uuid "9f69a930-e56a-4a4e-a52a-a9d7cdf08c6d")
+	)
+	(segment
+		(start 154.6225 111.515)
+		(end 173.6725 111.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 139)
+		(uuid "a5807157-a72f-40ce-a929-c0e95546b605")
+	)
+	(segment
+		(start 37.94125 111.515)
+		(end 59.3725 111.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 139)
+		(uuid "b2ee91e4-d6a7-4be1-b615-06e864a0409f")
+	)
+	(segment
+		(start 249.8725 111.515)
+		(end 278.4475 111.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 139)
+		(uuid "bc473e24-0609-4efa-9706-4c3544dc8127")
+	)
+	(segment
+		(start 211.7725 111.515)
+		(end 230.8225 111.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 139)
+		(uuid "e5ff2d65-4ee0-48b6-87e1-dfdd552513a8")
+	)
+	(segment
+		(start 192.7225 111.515)
+		(end 211.7725 111.515)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 139)
+		(uuid "eba0f1bd-f270-40e6-a249-dea97de8a93b")
 	)
 	(segment
 		(start 54.62 46.585)
