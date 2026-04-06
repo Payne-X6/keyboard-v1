@@ -5,34 +5,44 @@
 	(uuid "117347da-068d-4c22-ab87-e216bd0b1283")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Device:D"
+		(symbol "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 2.032 0.834 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
+			(property "Value" "1N4148W"
+				(at 2.032 -1.2122 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:D_SOD-123"
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308281515_hongjiacheng-1N4148W_C7420318.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -41,7 +51,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" "100V Independent Type 1.25V@150mA 4ns 150mA SOD-123 Switching Diodes ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -50,7 +60,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode"
+			(property "LCSC" "C7420318"
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,7 +69,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
+			(property "Stock" "616253"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +78,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
+			(property "Price" "0.009USD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -77,7 +87,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode"
+			(property "Process" "SMT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -86,7 +96,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(property "Minimum Qty" "15"
 				(at 0 0 0)
 				(effects
 					(font
@@ -95,10 +105,127 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_0_1"
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Preferred Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Diodes,Switching Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "hongjiacheng"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "1N4148W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rectified Current" "150mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature" "-55°C~+150°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Forward Voltage (Vf@If)" "1.25V@150mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reverse Voltage (Vr)" "100V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reverse Recovery Time (trr)" "4ns"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Diode Configuration" "Independent Type"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reverse Leakage Current (Ir)" "1uA@75V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Switching,1N4148W,(2)_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -110,7 +237,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy -1.27 -1.27) (xy 1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -120,42 +247,12 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "D_1_1"
+			(symbol "Switching,1N4148W,(2)_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
+					(at 0 3.81 270)
+					(length 3.81)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -163,6 +260,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -349,16 +464,10 @@
 		)
 	)
 	(junction
-		(at 201.93 147.32)
+		(at 288.29 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "00a13746-0fe3-4771-9d2f-051bdd8633e6")
-	)
-	(junction
-		(at 50.8 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01a85d92-5295-4a63-a2ae-20155c8003b2")
+		(uuid "02458e7d-daa2-4c17-8c59-aaa5f39cac99")
 	)
 	(junction
 		(at 347.98 161.29)
@@ -379,40 +488,46 @@
 		(uuid "0465bfe4-6d86-4aef-90f0-931234259915")
 	)
 	(junction
+		(at 158.75 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0665d158-8eab-49ee-beee-60fb909a3b96")
+	)
+	(junction
 		(at 261.62 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07610e1a-3aca-4c32-90e8-02b3ad97cb90")
 	)
 	(junction
-		(at 309.88 173.99)
+		(at 266.7 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c6557da-212a-4bf9-a1be-e2792697a14d")
+		(uuid "077a3fd4-615b-497b-a746-e375e0756d80")
 	)
 	(junction
-		(at 158.75 67.31)
+		(at 93.98 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0de86ae9-c7f9-4280-859e-5f81cc86421a")
+		(uuid "0e8aebf6-c130-4f6d-8750-850feb0fc0cd")
 	)
 	(junction
-		(at 374.65 200.66)
+		(at 93.98 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0e05e6f8-5204-448c-a77b-910bc09429c8")
+		(uuid "10527b9e-a3d7-4a5a-9f4d-1ef18c30fe78")
 	)
 	(junction
-		(at 223.52 173.99)
+		(at 309.88 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "11d7b0ec-518f-4eb4-b2f6-01ecb4765e8b")
+		(uuid "12fed74d-9b21-4f47-96d4-f9c9535db038")
 	)
 	(junction
-		(at 158.75 120.65)
+		(at 72.39 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "12c11974-4942-45ea-8048-33a7fa0a1cd3")
+		(uuid "130a2862-8f0c-4ab4-8b97-f8309cac1a0f")
 	)
 	(junction
 		(at 218.44 81.28)
@@ -421,28 +536,28 @@
 		(uuid "14c4799f-c750-4571-bfa5-9b431469c277")
 	)
 	(junction
+		(at 309.88 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "159701f8-ee35-46c2-ade2-12d2334b9368")
+	)
+	(junction
 		(at 288.29 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16ad4cac-881a-48c5-96b5-9d061447ecba")
+		(uuid "17d4ca80-f08c-4295-a7b2-9a739d67040f")
 	)
 	(junction
-		(at 201.93 93.98)
+		(at 353.06 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1714061e-7b9a-4a47-9e86-44ab0778c0f3")
+		(uuid "184dd1e8-f193-4887-9216-f3b7bc03d6cd")
 	)
 	(junction
-		(at 245.11 120.65)
+		(at 180.34 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18a8f90b-5c9f-49fb-9fef-5a0baaf406cd")
-	)
-	(junction
-		(at 72.39 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "194a2a41-10e7-4b22-8615-c8a8e80c1eae")
+		(uuid "194fe59f-ec91-48bd-8e4f-062af7c2d74a")
 	)
 	(junction
 		(at 304.8 27.94)
@@ -451,10 +566,10 @@
 		(uuid "1a044985-9b6f-4b46-b6cf-8307bcc67e29")
 	)
 	(junction
-		(at 288.29 173.99)
+		(at 93.98 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1beeecf5-be8a-4ddc-b708-7cafda506b25")
+		(uuid "1acdefd0-10d8-4358-b1dc-faabbf0b44fd")
 	)
 	(junction
 		(at 261.62 27.94)
@@ -463,16 +578,40 @@
 		(uuid "1c15b842-8819-4fc8-867a-1069bf530ab9")
 	)
 	(junction
+		(at 115.57 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c53f256-1eb2-4e17-8525-78f09dafebe5")
+	)
+	(junction
+		(at 309.88 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d3e28fe-1fca-4972-8e53-913ba62cfd21")
+	)
+	(junction
+		(at 396.24 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e1d26c3-95ac-44b3-98c9-ac20eb54d163")
+	)
+	(junction
 		(at 88.9 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f692a59-28f4-4a7d-bb3b-687115ceab33")
 	)
 	(junction
-		(at 29.21 67.31)
+		(at 72.39 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20c57917-4634-4a1b-81a1-1a01e9994314")
+		(uuid "2123e151-51b8-482c-9711-e3095e10d23b")
+	)
+	(junction
+		(at 50.8 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21664822-d1d1-45d4-aa2c-97eb1139333e")
 	)
 	(junction
 		(at 110.49 27.94)
@@ -481,28 +620,40 @@
 		(uuid "229bdfb2-1519-44bc-ab15-3deeacb4a42d")
 	)
 	(junction
-		(at 29.21 147.32)
+		(at 245.11 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "27fd1411-44d0-41fd-a623-e9d1ab0f6057")
+		(uuid "23c498dc-4029-40bb-8d92-5ce38e5bb8d8")
 	)
 	(junction
-		(at 29.21 120.65)
+		(at 72.39 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ae533b5-e509-4644-8fe9-f92d12457745")
+		(uuid "2570f033-321a-4049-8057-3e0d829c3ac4")
 	)
 	(junction
-		(at 93.98 173.99)
+		(at 201.93 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2bab1e17-4f10-4aff-9a12-d9f03738d502")
+		(uuid "257dc4af-cf3d-452c-b335-8dcb3441d7d8")
 	)
 	(junction
-		(at 50.8 120.65)
+		(at 50.8 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c7a53a7-7304-4644-a168-13ef219bafb9")
+		(uuid "28cdbb39-e65b-43d3-a912-c8ca7f37956f")
+	)
+	(junction
+		(at 266.7 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a7295d8-becb-4681-9381-acf92c2f2f30")
+	)
+	(junction
+		(at 353.06 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d41c5c7-f6c1-4363-a43b-363b33c7c782")
 	)
 	(junction
 		(at 196.85 27.94)
@@ -511,16 +662,34 @@
 		(uuid "2d715095-9b7d-4f1d-be20-c3b94d28da66")
 	)
 	(junction
+		(at 288.29 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e02f977-d98e-4418-af6c-33c748b834b1")
+	)
+	(junction
+		(at 50.8 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e6c3167-1ff5-42b9-a078-725c1cf67f68")
+	)
+	(junction
 		(at 67.31 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f228d6f-6fe8-4eaf-b73e-74d742ae8502")
 	)
 	(junction
-		(at 93.98 147.32)
+		(at 266.7 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3063ecf9-254a-4a80-8cac-fe55a1bd79a2")
+		(uuid "2fc1289a-395d-46b6-9048-38f803f778b8")
+	)
+	(junction
+		(at 72.39 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30850fc0-2b02-4eb2-b136-9c948d358631")
 	)
 	(junction
 		(at 110.49 81.28)
@@ -553,46 +722,22 @@
 		(uuid "33f09986-1efe-46c1-a70a-2258735013be")
 	)
 	(junction
-		(at 374.65 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3588e76b-227a-4d36-a1e0-d70255382470")
-	)
-	(junction
-		(at 353.06 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3599ea94-d0bb-44bb-b1c0-33cece3fb165")
-	)
-	(junction
 		(at 110.49 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36e84067-1933-49d9-893c-09a175750a17")
 	)
 	(junction
-		(at 93.98 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37873de8-c2f9-4aa2-92b6-2ebe4953fab3")
-	)
-	(junction
-		(at 93.98 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38cf6e65-6977-4962-b9cb-65a63d6c071d")
-	)
-	(junction
 		(at 245.11 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "398bf67c-508b-4820-aba2-eb29eb04e0fa")
+		(uuid "3885d5dd-8b38-4353-83e0-0241cb9e100a")
 	)
 	(junction
-		(at 245.11 93.98)
+		(at 353.06 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a7c10cb-4085-4eaf-bffa-1d4a794b5303")
+		(uuid "3ac83c8d-5e0a-4181-bf36-09e49c582491")
 	)
 	(junction
 		(at 326.39 187.96)
@@ -601,34 +746,64 @@
 		(uuid "3b988184-28e0-45d6-b551-09ade7dff5a4")
 	)
 	(junction
-		(at 201.93 67.31)
+		(at 201.93 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3bbabc00-94cb-4e7a-95a9-67a6c1e46185")
+		(uuid "3cbc44a5-94ef-4d5f-9a2d-40e93a153304")
 	)
 	(junction
-		(at 331.47 147.32)
+		(at 331.47 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3ca17985-c87c-41d9-a025-e41ef24ffb09")
+		(uuid "3d78382f-c06b-4868-b25f-f9dc19abc9d7")
 	)
 	(junction
-		(at 374.65 147.32)
+		(at 137.16 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d950984-1c55-4d7e-bc48-ca9e2bc952f5")
+		(uuid "408a34ae-06c4-4035-af4e-e237687e27dc")
 	)
 	(junction
-		(at 201.93 173.99)
+		(at 158.75 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3dfacd40-9677-4f8d-a074-a1d84b2452bf")
+		(uuid "41381d4f-6dec-4f20-84a6-e84d2ef232f5")
 	)
 	(junction
-		(at 137.16 173.99)
+		(at 50.8 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "41b1874b-6156-4fe3-a711-ec3c5aeaf8f6")
+		(uuid "4208c765-9931-472b-a24b-c17f2674ffc4")
+	)
+	(junction
+		(at 223.52 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "425cc42b-8de1-4823-b6f0-cb095be65555")
+	)
+	(junction
+		(at 137.16 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42bc52c6-b82b-496f-9475-372dadfaef49")
+	)
+	(junction
+		(at 288.29 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42c0ecd8-2c3a-4bc1-a320-5d896cbb1276")
+	)
+	(junction
+		(at 245.11 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42d94ad7-07d1-4f11-8b47-718e6d8be0e9")
+	)
+	(junction
+		(at 137.16 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "438701f9-3de0-4615-9a08-d94ecbed6078")
 	)
 	(junction
 		(at 261.62 134.62)
@@ -643,28 +818,28 @@
 		(uuid "45195525-1b67-4dee-bf82-3d50cbf3c7dc")
 	)
 	(junction
-		(at 353.06 93.98)
+		(at 353.06 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4546d0c4-10ae-4905-a77b-8353ac428885")
+		(uuid "475d11a4-2a50-49b3-a1e3-fac46ae620b6")
 	)
 	(junction
-		(at 309.88 200.66)
+		(at 374.65 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "45fce5aa-83b7-45d8-817f-506d16a3f3e3")
+		(uuid "4828e286-ce22-4750-9615-f5afccb9d238")
 	)
 	(junction
-		(at 223.52 40.64)
+		(at 245.11 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4600537f-44cc-400d-88bb-9235f8b2157d")
+		(uuid "49a8764a-493a-4e4a-8046-f8dfad63d9c3")
 	)
 	(junction
-		(at 396.24 120.65)
+		(at 50.8 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4b460bfd-f0e6-4819-83aa-b0c9aeb9b53e")
+		(uuid "4b264c0c-0286-4bee-b29a-8c310eb5c571")
 	)
 	(junction
 		(at 153.67 27.94)
@@ -673,22 +848,16 @@
 		(uuid "4b87664b-96b2-406e-abae-881ac619cf29")
 	)
 	(junction
-		(at 245.11 147.32)
+		(at 331.47 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4b986487-16b7-465c-b6ed-b2e55d22f5a1")
+		(uuid "4cdf4ac4-7627-4745-ae66-14f90e96fa0a")
 	)
 	(junction
-		(at 223.52 147.32)
+		(at 158.75 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4c818b46-d40f-4422-b6e2-3b899cb1e6b5")
-	)
-	(junction
-		(at 353.06 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e7afada-4f5a-4adb-a8f1-a38880141bd4")
+		(uuid "4ec0948f-9663-4a29-b924-081fa3987f0e")
 	)
 	(junction
 		(at 240.03 134.62)
@@ -715,16 +884,22 @@
 		(uuid "4fcdfad3-a076-4c27-98ca-8a00d6e9de59")
 	)
 	(junction
+		(at 374.65 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5011630f-bc68-4986-9dd6-31c87b1d4319")
+	)
+	(junction
 		(at 218.44 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50411e37-2535-4816-ab9d-0dc7fee5db60")
 	)
 	(junction
-		(at 309.88 67.31)
+		(at 115.57 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "51439791-bddb-4380-b6a5-ce7e9544bd55")
+		(uuid "50c13bed-5045-421e-a892-10c611ad99b9")
 	)
 	(junction
 		(at 369.57 134.62)
@@ -737,6 +912,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "524ee410-4ce7-46da-b1d0-e0b9f5f90f67")
+	)
+	(junction
+		(at 331.47 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52af3807-aa75-4ed8-b3ac-cd875887ae82")
 	)
 	(junction
 		(at 132.08 81.28)
@@ -757,22 +938,10 @@
 		(uuid "53313b10-d8bd-411c-93b6-5203916f8cf1")
 	)
 	(junction
-		(at 50.8 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54231503-b181-42f7-9bd1-de28e5571b0b")
-	)
-	(junction
 		(at 347.98 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5470333f-6988-4364-8ec1-7dc09cc3354f")
-	)
-	(junction
-		(at 72.39 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55a8f9b7-5761-467b-bb03-1997a6b6ddd0")
 	)
 	(junction
 		(at 326.39 107.95)
@@ -781,16 +950,22 @@
 		(uuid "56420070-623b-447b-88ac-536fe8f9605a")
 	)
 	(junction
+		(at 201.93 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57a3d973-27e2-4711-9ed8-4e1f58cf09dd")
+	)
+	(junction
+		(at 331.47 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58cba44c-f8c4-40e7-84fc-249fb95957b2")
+	)
+	(junction
 		(at 283.21 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a2d42bb-7465-4f00-ac93-387e6ae5214b")
-	)
-	(junction
-		(at 72.39 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a51ff4a-b5ea-48db-8340-942e638caa8d")
 	)
 	(junction
 		(at 132.08 161.29)
@@ -823,10 +998,10 @@
 		(uuid "61922a8f-5a37-40ce-9e25-650b8abfcfcf")
 	)
 	(junction
-		(at 309.88 93.98)
+		(at 93.98 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "61cab7b4-7664-4281-89aa-789941b5a541")
+		(uuid "61945bba-dd85-4918-8d86-0d3bced28386")
 	)
 	(junction
 		(at 153.67 81.28)
@@ -835,22 +1010,22 @@
 		(uuid "62ac5701-0d32-4f93-8677-5886260b4e3c")
 	)
 	(junction
-		(at 223.52 67.31)
+		(at 72.39 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "62fb66b4-b3a1-4d78-ab0a-59da158d66c7")
+		(uuid "641094d9-d2c6-4f21-97ea-6d2d7db85972")
 	)
 	(junction
-		(at 331.47 67.31)
+		(at 29.21 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "63d0929e-abbb-4cf5-b74c-536e6c4e007a")
+		(uuid "659757b5-3812-4da2-ae94-c308a3824d0e")
 	)
 	(junction
-		(at 288.29 200.66)
+		(at 180.34 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "657543e7-e45d-4701-9058-7c813bb0765c")
+		(uuid "6638fad4-eec1-44e7-b3ba-3c34119746a1")
 	)
 	(junction
 		(at 67.31 134.62)
@@ -859,46 +1034,40 @@
 		(uuid "66dc45b8-d824-4eee-b4d4-ba98bcd62510")
 	)
 	(junction
-		(at 137.16 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67bd614d-db01-4b47-a1c2-1f1afd1b4ee8")
-	)
-	(junction
-		(at 137.16 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "682398e4-2371-46df-a2fb-b36964a28813")
-	)
-	(junction
 		(at 88.9 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68345971-d5c6-4e42-9077-b2f28dad877a")
 	)
 	(junction
-		(at 72.39 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "686a9417-525c-4fea-9624-131374b7d492")
-	)
-	(junction
-		(at 266.7 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "693b6a26-a5fe-470b-8cfa-af8f9a9098bb")
-	)
-	(junction
 		(at 180.34 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "69415a3f-b9d6-44c0-9a07-85cf95feaff5")
+		(uuid "68ddc2cd-7d7c-4a5e-b0c0-769a34412c7b")
 	)
 	(junction
 		(at 196.85 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "699c8fd2-6006-41d8-b94b-b9d2b9bb3f3c")
+	)
+	(junction
+		(at 93.98 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6acd2f2e-77be-4d65-b143-33338bc768e5")
+	)
+	(junction
+		(at 29.21 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b56defd-af0e-4223-8cc4-18edebcc0cb5")
+	)
+	(junction
+		(at 137.16 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c590872-073e-4730-8b17-70c0b8b252fc")
 	)
 	(junction
 		(at 88.9 107.95)
@@ -919,46 +1088,10 @@
 		(uuid "6d1487e2-02c7-4ae0-b55c-70be4cb6b604")
 	)
 	(junction
-		(at 115.57 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d19a2a1-5488-47ff-964d-b54f558e7873")
-	)
-	(junction
-		(at 115.57 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d3f636d-e4f7-48e4-96bf-0817d14c9267")
-	)
-	(junction
 		(at 304.8 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d6bb120-bf4d-434a-8b22-5aed4fbfaefc")
-	)
-	(junction
-		(at 72.39 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e1e2487-de39-4965-bdf9-624fa4d65443")
-	)
-	(junction
-		(at 245.11 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fe3a29b-eefe-4a9e-94d6-72e3a0c554b6")
-	)
-	(junction
-		(at 331.47 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70d80a50-e42a-46bc-89b9-74bf04079d67")
-	)
-	(junction
-		(at 180.34 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70e06129-33e7-4219-9332-e4e3891523ff")
 	)
 	(junction
 		(at 304.8 107.95)
@@ -967,28 +1100,16 @@
 		(uuid "7115cd12-c525-4b1f-8e2a-6da662e5d825")
 	)
 	(junction
-		(at 353.06 147.32)
+		(at 158.75 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "720afd03-3bcd-4568-80cf-6864d5347259")
-	)
-	(junction
-		(at 331.47 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "730d0e18-e16c-4275-8984-a706f1fb78fc")
+		(uuid "71ba5237-e4ec-4a1d-990a-0170605a0e74")
 	)
 	(junction
 		(at 261.62 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73ac8472-ed1b-4bb0-8e7a-c5276512fd0d")
-	)
-	(junction
-		(at 266.7 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74cc4509-8864-42b4-bec5-b7dc5cca3ff0")
 	)
 	(junction
 		(at 261.62 81.28)
@@ -1003,10 +1124,22 @@
 		(uuid "76bbf0f9-796e-44b5-8843-171aa29ef1ac")
 	)
 	(junction
+		(at 245.11 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77328016-65e8-48ad-b13c-5e8e73188f67")
+	)
+	(junction
 		(at 175.26 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77d7bbb6-fb8b-4579-82c3-6cb0e3e6bdc0")
+	)
+	(junction
+		(at 245.11 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "783acd62-1700-453a-bd63-087dd4f1192a")
 	)
 	(junction
 		(at 391.16 107.95)
@@ -1027,10 +1160,10 @@
 		(uuid "7b9072fa-a834-421d-bdcc-b0ea713543c1")
 	)
 	(junction
-		(at 115.57 147.32)
+		(at 223.52 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7c7eab05-8f29-42fa-9bc9-fde9884b2b95")
+		(uuid "7c63a072-2353-4284-9dc8-7fb6fada67be")
 	)
 	(junction
 		(at 88.9 161.29)
@@ -1039,40 +1172,22 @@
 		(uuid "7d37552f-f3a9-4828-8e83-05ddbaa93ca9")
 	)
 	(junction
-		(at 374.65 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d90b0f5-6d16-41f0-b7f4-300e28a6515f")
-	)
-	(junction
 		(at 24.13 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ed09227-997b-4aa4-9ab4-4dd85e688ff6")
 	)
 	(junction
+		(at 180.34 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f0b0938-2636-4222-a48d-add2b5d02b6c")
+	)
+	(junction
 		(at 283.21 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f851feb-a08f-4a3c-af7c-c842164006e7")
-	)
-	(junction
-		(at 288.29 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fabdf07-f81b-4abc-8322-3ef45f87aaa6")
-	)
-	(junction
-		(at 288.29 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80992144-d18f-4e6b-97b5-bb616142efb0")
-	)
-	(junction
-		(at 115.57 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "811b2b24-e8df-4597-be6b-01d09acd6e6e")
 	)
 	(junction
 		(at 24.13 187.96)
@@ -1087,28 +1202,40 @@
 		(uuid "83ccc5d1-da40-4c27-930d-95550e4d2c0f")
 	)
 	(junction
-		(at 201.93 40.64)
+		(at 331.47 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "84cce8e2-a434-48d0-8c05-260f3940b30d")
+		(uuid "85aaec65-6340-452d-8d93-212335e8004f")
 	)
 	(junction
-		(at 266.7 40.64)
+		(at 309.88 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8bf095ce-a22c-4316-baa5-09055e020ab7")
+		(uuid "894873d9-a379-4381-a547-4d81798dff2d")
 	)
 	(junction
-		(at 50.8 40.64)
+		(at 180.34 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8d277627-f745-47ec-92da-196b52dea816")
+		(uuid "89d05223-50f8-4986-82ba-d3a4ca62713c")
 	)
 	(junction
-		(at 158.75 93.98)
+		(at 309.88 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8da8cef7-da6e-4533-a229-e73258435228")
+		(uuid "89e13481-8e73-4629-adeb-da129e6c6238")
+	)
+	(junction
+		(at 72.39 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bdf2ffa-8bb0-48c3-8ca5-6073ecfcab6e")
+	)
+	(junction
+		(at 29.21 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c361678-4438-4345-82bc-02aff4deb41b")
 	)
 	(junction
 		(at 326.39 54.61)
@@ -1117,28 +1244,22 @@
 		(uuid "8e0deeb9-5a30-4378-b1e9-b0f831f8971d")
 	)
 	(junction
-		(at 29.21 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ed87a5d-8060-46ed-8082-4acc906e2550")
-	)
-	(junction
 		(at 153.67 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f12caec-2e7f-4aaf-9dde-35a9f7815f80")
 	)
 	(junction
+		(at 353.06 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9401f45d-fa40-483e-bffd-78dd108853cd")
+	)
+	(junction
 		(at 180.34 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9109e1c9-3827-4081-b06a-7c8788e5219d")
-	)
-	(junction
-		(at 396.24 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96d66efd-4326-4feb-a376-53fa4942004a")
+		(uuid "94466e45-be45-48b7-ace8-d21b48139765")
 	)
 	(junction
 		(at 283.21 134.62)
@@ -1153,12 +1274,6 @@
 		(uuid "9753ccce-ce85-4cac-91e5-e91bfce3412e")
 	)
 	(junction
-		(at 93.98 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9840786d-d4f3-4fca-a3c2-8442b468903f")
-	)
-	(junction
 		(at 391.16 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1171,22 +1286,28 @@
 		(uuid "985e9d4b-1807-4302-af9e-cd3e754afa40")
 	)
 	(junction
-		(at 50.8 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9892a87e-ea4d-40fe-9b94-c80dcd08afe8")
-	)
-	(junction
 		(at 110.49 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98c85404-11f9-45e6-a516-0a76ae37dc7a")
 	)
 	(junction
+		(at 29.21 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a29eedf-2200-467c-99e8-5c783e9cebeb")
+	)
+	(junction
 		(at 45.72 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a4db95c-e603-4a93-a557-10120a2fc33c")
+	)
+	(junction
+		(at 201.93 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c347575-dc90-4084-88ec-4d15b4a96044")
 	)
 	(junction
 		(at 175.26 81.28)
@@ -1201,34 +1322,10 @@
 		(uuid "9d84c851-394b-4f99-b866-9de9aab5f4f4")
 	)
 	(junction
-		(at 266.7 147.32)
+		(at 50.8 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9e3514f7-eb35-4569-b0fc-6d67c43bd0d5")
-	)
-	(junction
-		(at 288.29 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f705add-7096-4a48-a783-3e43f7416866")
-	)
-	(junction
-		(at 309.88 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a074308a-4dde-46c5-acd1-1f82b3a37cfe")
-	)
-	(junction
-		(at 137.16 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1a6d94f-1cf5-4884-ac40-d33678e68f86")
-	)
-	(junction
-		(at 201.93 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2274ca5-38aa-4904-b20e-46ab0097beec")
+		(uuid "9f7553eb-bcf5-4f73-b05d-027c7ce52a4d")
 	)
 	(junction
 		(at 88.9 54.61)
@@ -1255,6 +1352,12 @@
 		(uuid "a5662a80-a757-44c0-b016-b102d84d3bcc")
 	)
 	(junction
+		(at 72.39 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5da567e-41a2-4f43-904b-fefb15e46dfb")
+	)
+	(junction
 		(at 132.08 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1267,16 +1370,16 @@
 		(uuid "a67cc25b-ac8d-4b92-9318-43824a13b384")
 	)
 	(junction
-		(at 29.21 173.99)
+		(at 137.16 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a85bcb9e-ab1c-4e59-98cc-511936f7175f")
+		(uuid "a8958887-46db-4bd6-a153-69676194a85c")
 	)
 	(junction
-		(at 331.47 93.98)
+		(at 201.93 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a94fa85d-5c0a-4bc3-8872-64a5c4049ac9")
+		(uuid "a9e544a6-1bf6-411e-ac50-861a79474585")
 	)
 	(junction
 		(at 132.08 27.94)
@@ -1285,16 +1388,28 @@
 		(uuid "aa638e59-9de9-4674-b21f-8bda4af9dd9f")
 	)
 	(junction
-		(at 266.7 173.99)
+		(at 223.52 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ae981348-3f1f-4fe3-a946-4b07fdfaec3e")
+		(uuid "ab63387d-370c-41ae-bd2d-d9a4fca041d2")
 	)
 	(junction
-		(at 309.88 40.64)
+		(at 266.7 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "afb6bc78-1ade-40d7-8aad-dcdb43afe09f")
+		(uuid "afb53938-c389-4389-853f-9a08161a25d7")
+	)
+	(junction
+		(at 396.24 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afcec5cc-101f-4c13-922f-6d4419df35a3")
+	)
+	(junction
+		(at 309.88 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b13775c6-6af3-4c35-b4a3-f526c628305b")
 	)
 	(junction
 		(at 196.85 54.61)
@@ -1303,10 +1418,10 @@
 		(uuid "b1392149-0734-4fc7-b8ec-cfe291744e5d")
 	)
 	(junction
-		(at 50.8 173.99)
+		(at 374.65 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b1c7fb0f-0967-4c1f-add3-f3ead9f0c808")
+		(uuid "b38ae30f-4e8e-4aa6-a486-9bd13eb6b855")
 	)
 	(junction
 		(at 261.62 107.95)
@@ -1319,18 +1434,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b671a645-781f-44b4-9fe2-beceef1ff694")
-	)
-	(junction
-		(at 266.7 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6e7655c-928e-477b-b2ba-5f883eacf9d3")
-	)
-	(junction
-		(at 201.93 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b704e6c8-e414-472b-b3e5-d5dd687619bf")
 	)
 	(junction
 		(at 240.03 81.28)
@@ -1357,12 +1460,6 @@
 		(uuid "ba0dc0d4-226b-4e4c-9326-b681a7c4a042")
 	)
 	(junction
-		(at 158.75 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba3b744d-9daf-45db-8e7b-3dc407dca51a")
-	)
-	(junction
 		(at 196.85 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1375,16 +1472,22 @@
 		(uuid "c1e3bf01-51a6-4f53-8a1d-21c3c38ea523")
 	)
 	(junction
-		(at 180.34 120.65)
+		(at 288.29 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c209ae46-5a6c-4798-8d1c-f33a6fc963b6")
+		(uuid "c272518e-cc68-45a0-9c08-d3c0b517addf")
 	)
 	(junction
-		(at 50.8 200.66)
+		(at 374.65 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c2971b1c-d867-43ac-afec-748a5372e0bd")
+		(uuid "c273934d-3c93-4877-91b8-e688a4fbc04d")
+	)
+	(junction
+		(at 288.29 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c27c7a18-cb03-4c84-99c9-d8286ff1c96f")
 	)
 	(junction
 		(at 24.13 54.61)
@@ -1393,10 +1496,16 @@
 		(uuid "c2ef69bc-3b99-4488-af91-a2eba4338a65")
 	)
 	(junction
-		(at 374.65 93.98)
+		(at 201.93 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c50d54ec-d1a6-4148-9acd-75d46f9cb550")
+		(uuid "c4dc0973-7c1a-47a4-ae4a-c4830dac6ef6")
+	)
+	(junction
+		(at 266.7 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c53d292d-0714-49b3-90eb-331c356fe660")
 	)
 	(junction
 		(at 45.72 134.62)
@@ -1405,10 +1514,28 @@
 		(uuid "c68b3789-d0c1-4114-b9c7-4508fb07b0eb")
 	)
 	(junction
-		(at 180.34 67.31)
+		(at 29.21 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb1cf6d2-ee2a-4b49-8f33-1f8c444a54d8")
+		(uuid "c6a6411e-a5b4-49b6-a2da-9a8c28c7d5c3")
+	)
+	(junction
+		(at 245.11 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8901152-905d-4eb0-8317-1faaee86d29d")
+	)
+	(junction
+		(at 288.29 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb8a3fdb-0a2b-4058-a238-5fe6d253ada0")
+	)
+	(junction
+		(at 115.57 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbc22698-c020-4cde-a6b1-ded9cf9502df")
 	)
 	(junction
 		(at 153.67 161.29)
@@ -1417,22 +1544,16 @@
 		(uuid "cbe3e3a8-e24a-4044-b2ff-f19ec9015878")
 	)
 	(junction
-		(at 223.52 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc7ae382-f644-4d9a-96d5-c59a5db1cd3e")
-	)
-	(junction
 		(at 218.44 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd04fd75-ff8d-4599-aeac-029917ef577d")
 	)
 	(junction
-		(at 115.57 173.99)
+		(at 331.47 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf73df5e-542c-4e63-9045-8be689b507c8")
+		(uuid "ce5b5449-722a-43b3-b583-df7ad62ab7b2")
 	)
 	(junction
 		(at 24.13 161.29)
@@ -1441,40 +1562,16 @@
 		(uuid "d0a1f7d8-54cd-4d8c-9200-900bda09de80")
 	)
 	(junction
-		(at 180.34 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d17e1ca3-f77a-49e2-8aa6-e06c9727e22b")
-	)
-	(junction
 		(at 24.13 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d37f14b1-2b06-488f-85d7-0072f4e67631")
 	)
 	(junction
-		(at 137.16 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d569ddd7-8755-4a57-bfa2-b76e144ecce4")
-	)
-	(junction
-		(at 158.75 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5e66da0-0a5e-440f-81d0-b283e7f0d173")
-	)
-	(junction
 		(at 326.39 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6412d41-1d51-497d-aaff-e29c6f91c51f")
-	)
-	(junction
-		(at 93.98 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db994eb8-b359-4171-ae05-3a3730fb1c85")
 	)
 	(junction
 		(at 88.9 134.62)
@@ -1489,52 +1586,22 @@
 		(uuid "dcd1b34d-80b4-4805-a4c7-c4603e76c91d")
 	)
 	(junction
-		(at 29.21 200.66)
+		(at 115.57 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "de30c5db-c36f-49cb-a0c0-b3ae51f1dad1")
+		(uuid "de0ead93-2c46-4932-815e-ae3794a5737d")
 	)
 	(junction
-		(at 158.75 147.32)
+		(at 115.57 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "decee0b9-de29-47a9-a815-9e4f07505719")
+		(uuid "dfbf898d-bbba-4d5e-ad8c-22c181c5e5ac")
 	)
 	(junction
-		(at 72.39 173.99)
+		(at 396.24 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dfe2edfb-a0d6-4993-94b8-525af58cf18d")
-	)
-	(junction
-		(at 223.52 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e08fb0e1-8f2f-4e9c-ad8d-f691f17390f8")
-	)
-	(junction
-		(at 331.47 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1bbbc87-bc83-4038-87c2-1854e27f1b3f")
-	)
-	(junction
-		(at 245.11 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2b41536-7c9e-4a13-bb1d-547f54ee94ed")
-	)
-	(junction
-		(at 72.39 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3c4def9-0e59-4ba7-9ea8-92177aadb9bb")
-	)
-	(junction
-		(at 266.7 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e46ee736-39a9-4930-9c6d-817d32a61e21")
+		(uuid "e2e69e6d-1101-4e25-8a7d-b055a0d3808d")
 	)
 	(junction
 		(at 240.03 187.96)
@@ -1549,16 +1616,22 @@
 		(uuid "e57fcf35-1c63-4bf6-a36a-a7b0aee52756")
 	)
 	(junction
-		(at 137.16 200.66)
+		(at 158.75 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e600167f-e97d-4c9f-8f23-7a2c5445b12b")
+		(uuid "e5a60293-a9b4-41ef-ad54-32bfc28a8820")
 	)
 	(junction
 		(at 240.03 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6b7cbb5-ef55-4bfb-b0fc-761040361244")
+	)
+	(junction
+		(at 201.93 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7f598e3-0e6d-4712-8dd1-02fe7a9a8363")
 	)
 	(junction
 		(at 304.8 81.28)
@@ -1573,10 +1646,28 @@
 		(uuid "ea215395-0149-4030-8084-34ef7fdf1801")
 	)
 	(junction
+		(at 50.8 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb37180a-1e28-4c3f-a467-ae0d55d7ef98")
+	)
+	(junction
+		(at 223.52 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec22bed6-ea40-4d75-a383-876011615513")
+	)
+	(junction
 		(at 283.21 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed78b88a-7040-4333-9db0-5c4480c84b3d")
+	)
+	(junction
+		(at 137.16 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edf3f6cb-1a1d-4fb6-93c8-1938ecda2073")
 	)
 	(junction
 		(at 196.85 187.96)
@@ -1585,28 +1676,22 @@
 		(uuid "ee576080-3228-41c9-83d6-1f5d79b75ac5")
 	)
 	(junction
-		(at 331.47 200.66)
+		(at 158.75 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eea23bac-58fc-4288-b413-4f1ea0695051")
+		(uuid "eebb8e53-82e5-43bb-bd2a-b384025b982d")
 	)
 	(junction
-		(at 245.11 67.31)
+		(at 223.52 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eef7f8a7-0d40-4f36-98e0-ed9bfa6d13c2")
+		(uuid "f1f4e416-cf93-4b8e-b322-6cd73c1d4894")
 	)
 	(junction
-		(at 396.24 173.99)
+		(at 137.16 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f0d75653-43a3-40ba-84da-302fc9a49021")
-	)
-	(junction
-		(at 115.57 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2106b2a-08e2-4fab-ac6d-257eeb38613f")
+		(uuid "f339bf3b-f9fd-4c26-a92b-8b8c430be009")
 	)
 	(junction
 		(at 175.26 134.62)
@@ -1615,10 +1700,22 @@
 		(uuid "f5c1e3fe-cd91-4d60-9311-f06bb0e2bda7")
 	)
 	(junction
-		(at 353.06 173.99)
+		(at 115.57 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f5f91c0d-c7bd-4a9a-bc79-f6733a91a3f8")
+		(uuid "f634a951-8975-4292-ab40-8e54d5f43c44")
+	)
+	(junction
+		(at 266.7 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6d35260-80ea-42a0-8319-87d5fd4f64d2")
+	)
+	(junction
+		(at 266.7 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7b0a356-20e6-41e4-908b-523e1db57569")
 	)
 	(junction
 		(at 218.44 161.29)
@@ -1627,10 +1724,28 @@
 		(uuid "f7b4822b-176e-4104-a843-0db03b0ee52a")
 	)
 	(junction
+		(at 374.65 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7e343c3-62ac-46fa-9cf1-09bbcf8c001d")
+	)
+	(junction
+		(at 223.52 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8326336-a15a-458b-8f56-2018abeccd90")
+	)
+	(junction
 		(at 45.72 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f882f747-8bb9-4356-b14b-a3e4378eb28b")
+	)
+	(junction
+		(at 93.98 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9c3f393-bffc-41af-8969-172596675596")
 	)
 	(junction
 		(at 153.67 107.95)
@@ -1643,6 +1758,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb12e58d-6699-4fb3-98e1-9b61316774e2")
+	)
+	(junction
+		(at 29.21 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb29e30a-6354-4b98-b705-5eb092cfead2")
 	)
 	(junction
 		(at 67.31 81.28)
@@ -1663,22 +1784,26 @@
 		(uuid "fbe97b7c-9598-4b69-85e6-90c1fc3eec3f")
 	)
 	(junction
-		(at 288.29 67.31)
+		(at 331.47 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc6eabc5-a58e-40f9-8ea7-5d74247406fc")
-	)
-	(junction
-		(at 137.16 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdb1a5b4-0fd5-46ee-93d6-7de9b34982b6")
+		(uuid "fc4b5c61-0ba1-46c2-bb9c-a4924e645845")
 	)
 	(junction
 		(at 132.08 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe8537ee-9411-4b02-ad9b-d0770b8057d1")
+	)
+	(wire
+		(pts
+			(xy 180.34 120.65) (xy 201.93 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0076109f-3029-4cb1-a803-ae01077d7a7d")
 	)
 	(wire
 		(pts
@@ -1702,6 +1827,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 93.98) (xy 374.65 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "013cac9b-7445-405b-81f4-ce8b2ec6a720")
+	)
+	(wire
+		(pts
 			(xy 67.31 161.29) (xy 67.31 187.96)
 		)
 		(stroke
@@ -1722,6 +1857,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 67.31) (xy 403.86 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02777c6b-373e-490a-a6f5-c347fa256eef")
+	)
+	(wire
+		(pts
 			(xy 132.08 54.61) (xy 132.08 81.28)
 		)
 		(stroke
@@ -1732,6 +1877,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 40.64) (xy 331.47 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d57698-a865-4876-9ffc-f7e93da61d3a")
+	)
+	(wire
+		(pts
 			(xy 16.51 93.98) (xy 29.21 93.98)
 		)
 		(stroke
@@ -1739,6 +1894,16 @@
 			(type default)
 		)
 		(uuid "038ecc0a-c6ba-4090-b19e-fd9b4b963361")
+	)
+	(wire
+		(pts
+			(xy 266.7 120.65) (xy 288.29 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c06fa5-41aa-48dd-81af-457f44d1118e")
 	)
 	(wire
 		(pts
@@ -1762,16 +1927,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 173.99) (xy 137.16 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "069d7f8f-5b0e-42c1-96c0-45d279145e5e")
-	)
-	(wire
-		(pts
 			(xy 304.8 161.29) (xy 304.8 187.96)
 		)
 		(stroke
@@ -1779,6 +1934,16 @@
 			(type default)
 		)
 		(uuid "071984cf-bf74-43cf-bd52-c2c803f2a34e")
+	)
+	(wire
+		(pts
+			(xy 331.47 120.65) (xy 353.06 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08159aeb-1a74-43e4-96f1-11b2358ac21c")
 	)
 	(wire
 		(pts
@@ -1802,23 +1967,43 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 120.65) (xy 72.39 120.65)
+			(xy 266.7 173.99) (xy 288.29 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09531c16-2f82-4bce-aded-009ab2bd8cba")
+		(uuid "0ac2a3a8-bd74-4346-a0c9-3aca663f50ef")
 	)
 	(wire
 		(pts
-			(xy 266.7 93.98) (xy 288.29 93.98)
+			(xy 288.29 200.66) (xy 309.88 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0acfeb00-3900-4fb2-b5f1-3fb47417c8dd")
+		(uuid "0ad78032-9d77-411d-b7ac-37bdf8841e4c")
+	)
+	(wire
+		(pts
+			(xy 288.29 67.31) (xy 309.88 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b702f8f-90eb-4ded-b31b-9ae95c0c2d9f")
+	)
+	(wire
+		(pts
+			(xy 93.98 120.65) (xy 115.57 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b78bed0-254a-46d1-b362-cafb2fb51314")
 	)
 	(wire
 		(pts
@@ -1832,23 +2017,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 67.31) (xy 180.34 67.31)
+			(xy 29.21 147.32) (xy 50.8 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c06e67e-5c79-4b6f-b5aa-1cf55966557c")
-	)
-	(wire
-		(pts
-			(xy 137.16 173.99) (xy 158.75 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cc48bf1-e142-4471-8f84-a2c95598f2de")
+		(uuid "0c821887-7ab1-4323-ae97-72ffb4bcbe26")
 	)
 	(wire
 		(pts
@@ -1859,6 +2034,16 @@
 			(type default)
 		)
 		(uuid "0d33de2b-5146-4844-90d4-3e8b69c2b170")
+	)
+	(wire
+		(pts
+			(xy 72.39 200.66) (xy 137.16 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e27fa60-7a79-48fd-bc94-ba196140ac0f")
 	)
 	(wire
 		(pts
@@ -1902,6 +2087,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 93.98) (xy 403.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102aedcd-6320-42b1-9b22-709a2be5698b")
+	)
+	(wire
+		(pts
 			(xy 196.85 187.96) (xy 196.85 203.2)
 		)
 		(stroke
@@ -1912,33 +2107,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 147.32) (xy 93.98 147.32)
+			(xy 201.93 173.99) (xy 223.52 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11ac28a0-e630-46bf-bdd4-13ea13c94b34")
-	)
-	(wire
-		(pts
-			(xy 353.06 147.32) (xy 374.65 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "126ce4e9-c161-4708-9259-5bb52236e1e7")
-	)
-	(wire
-		(pts
-			(xy 374.65 147.32) (xy 403.86 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12df582a-3824-476d-ba7b-f4eb664aec9c")
+		(uuid "133dedd6-0999-4cfc-9437-c7bd96cd4721")
 	)
 	(wire
 		(pts
@@ -1952,33 +2127,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 67.31) (xy 137.16 67.31)
+			(xy 245.11 147.32) (xy 266.7 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "143c0af2-f1c2-463e-a6f0-fc9452112b37")
+		(uuid "140527dc-95a6-4e6e-bef1-4cddaa6bffa5")
 	)
 	(wire
 		(pts
-			(xy 50.8 40.64) (xy 72.39 40.64)
+			(xy 72.39 40.64) (xy 93.98 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "153a3e19-340a-4313-9cf0-2bec5845b282")
-	)
-	(wire
-		(pts
-			(xy 288.29 40.64) (xy 309.88 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15816227-0511-415f-8327-d880256c7f79")
+		(uuid "15d57f64-6872-4135-bb32-9b22687e1964")
 	)
 	(wire
 		(pts
@@ -1989,16 +2154,6 @@
 			(type default)
 		)
 		(uuid "166adb72-edbf-49b7-a794-0560c7976aaf")
-	)
-	(wire
-		(pts
-			(xy 29.21 200.66) (xy 50.8 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17cea4bf-22b4-45cd-b187-46c269de0a6b")
 	)
 	(wire
 		(pts
@@ -2022,6 +2177,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 200.66) (xy 201.93 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a022c71-0d96-48e7-83b9-8a218a8aa4dc")
+	)
+	(wire
+		(pts
 			(xy 240.03 134.62) (xy 240.03 161.29)
 		)
 		(stroke
@@ -2042,16 +2207,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 200.66) (xy 353.06 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b9fca05-4636-4bd7-b040-b0617ea27dbb")
-	)
-	(wire
-		(pts
 			(xy 283.21 187.96) (xy 283.21 201.93)
 		)
 		(stroke
@@ -2059,6 +2214,26 @@
 			(type default)
 		)
 		(uuid "1c96e77e-a325-4865-aea0-89406dbcc41b")
+	)
+	(wire
+		(pts
+			(xy 266.7 147.32) (xy 288.29 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d498eb7-484f-4078-a469-e35ae849fc72")
+	)
+	(wire
+		(pts
+			(xy 288.29 147.32) (xy 331.47 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de6106b-df2a-46a2-87ea-85eefb3de3d0")
 	)
 	(wire
 		(pts
@@ -2082,13 +2257,23 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 147.32) (xy 201.93 147.32)
+			(xy 158.75 40.64) (xy 180.34 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "214efdf5-9045-4999-ba23-78654a8c4105")
+		(uuid "1f4b8dae-aee6-4fe0-9cd1-4511c48d7c00")
+	)
+	(wire
+		(pts
+			(xy 309.88 120.65) (xy 331.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f2d034-6c88-4988-ba14-94e9586b4ce2")
 	)
 	(wire
 		(pts
@@ -2112,23 +2297,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 173.99) (xy 266.7 173.99)
+			(xy 396.24 120.65) (xy 403.86 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24eebdbf-2fe6-46e9-be24-e742d4b0b3ba")
-	)
-	(wire
-		(pts
-			(xy 309.88 40.64) (xy 331.47 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b219c7-259d-4fcf-a70f-2e8f8c4d8bd1")
+		(uuid "238d9432-4e13-45a7-b75b-76edc602ad28")
 	)
 	(wire
 		(pts
@@ -2142,13 +2317,23 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 200.66) (xy 288.29 200.66)
+			(xy 50.8 173.99) (xy 72.39 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27a4cecf-8499-4318-99fa-eea1794cd219")
+		(uuid "26e9191a-689e-4002-a537-8880b7f4c21a")
+	)
+	(wire
+		(pts
+			(xy 331.47 200.66) (xy 353.06 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271c59af-b1e5-437f-9834-a194aaf4ac04")
 	)
 	(wire
 		(pts
@@ -2162,16 +2347,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 67.31) (xy 403.86 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2980a81b-592f-4138-93d5-8aa40a5e2b86")
-	)
-	(wire
-		(pts
 			(xy 240.03 81.28) (xy 240.03 107.95)
 		)
 		(stroke
@@ -2179,6 +2354,16 @@
 			(type default)
 		)
 		(uuid "29950ac1-0f35-4075-93ce-d97209fa1716")
+	)
+	(wire
+		(pts
+			(xy 223.52 67.31) (xy 245.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5dcecd-c25f-404e-b4a5-c1e132073fbc")
 	)
 	(wire
 		(pts
@@ -2202,23 +2387,23 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 173.99) (xy 353.06 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e98de98-54ef-4ef4-8b71-21526cf4dade")
-	)
-	(wire
-		(pts
 			(xy 115.57 93.98) (xy 137.16 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31637ef5-44a2-4870-941b-963404fa231b")
+		(uuid "2c0e7e28-8f5f-4514-8e67-2825c55c9a74")
+	)
+	(wire
+		(pts
+			(xy 223.52 147.32) (xy 245.11 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e15480b-e0b3-428e-ab45-e501dbbd7c0b")
 	)
 	(wire
 		(pts
@@ -2242,16 +2427,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 200.66) (xy 201.93 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "326a873b-7d8d-48fb-abb6-bb2a275ac1f2")
-	)
-	(wire
-		(pts
 			(xy 67.31 107.95) (xy 67.31 134.62)
 		)
 		(stroke
@@ -2259,16 +2434,6 @@
 			(type default)
 		)
 		(uuid "3378feb2-4608-4aed-83cb-e7b6f68226ea")
-	)
-	(wire
-		(pts
-			(xy 245.11 147.32) (xy 266.7 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3504634a-1e5b-402d-b944-73ea6be8b5e3")
 	)
 	(wire
 		(pts
@@ -2282,6 +2447,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 173.99) (xy 245.11 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cd8d69-872e-48f6-b9d8-385c3f1ee972")
+	)
+	(wire
+		(pts
 			(xy 283.21 27.94) (xy 283.21 54.61)
 		)
 		(stroke
@@ -2289,16 +2464,6 @@
 			(type default)
 		)
 		(uuid "3acdd00a-6e38-46e1-9822-9c5115084f4c")
-	)
-	(wire
-		(pts
-			(xy 201.93 67.31) (xy 223.52 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b3ad600-5fe2-4a89-b76a-c99ccd9c98eb")
 	)
 	(wire
 		(pts
@@ -2312,23 +2477,23 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 120.65) (xy 288.29 120.65)
+			(xy 29.21 93.98) (xy 50.8 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3dda4dee-9f49-4f20-a7b6-c5326da6c43a")
+		(uuid "3b9f99a9-073f-492f-9e24-ba7b900b864a")
 	)
 	(wire
 		(pts
-			(xy 72.39 173.99) (xy 93.98 173.99)
+			(xy 245.11 40.64) (xy 266.7 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f5f7f29-5fbf-4270-8809-9648e666599f")
+		(uuid "3cf5620b-f1fd-4f46-8fc4-4c537ac82bbe")
 	)
 	(wire
 		(pts
@@ -2352,13 +2517,23 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 120.65) (xy 374.65 120.65)
+			(xy 72.39 67.31) (xy 93.98 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4223b91c-b47e-4a84-a9a5-218a004784d2")
+		(uuid "41537b1c-a2bf-4461-9c74-c47618216399")
+	)
+	(wire
+		(pts
+			(xy 309.88 67.31) (xy 331.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4231d163-eb88-4a10-8d15-ba9181dff0a9")
 	)
 	(wire
 		(pts
@@ -2372,6 +2547,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 40.64) (xy 223.52 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435c2613-022e-4f9f-8578-3521caed2224")
+	)
+	(wire
+		(pts
 			(xy 67.31 134.62) (xy 67.31 161.29)
 		)
 		(stroke
@@ -2379,16 +2564,6 @@
 			(type default)
 		)
 		(uuid "461ad6ba-ab9d-4a6b-8591-19e6d076d7d6")
-	)
-	(wire
-		(pts
-			(xy 245.11 200.66) (xy 266.7 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46bad881-5406-4891-9df7-77350c050b87")
 	)
 	(wire
 		(pts
@@ -2402,6 +2577,26 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 200.66) (xy 374.65 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476a1a0b-4c99-4a0b-aef2-1e27e7e2cbd3")
+	)
+	(wire
+		(pts
+			(xy 158.75 67.31) (xy 180.34 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4850535a-a2f5-42c4-beb3-a63be9ec9a6a")
+	)
+	(wire
+		(pts
 			(xy 110.49 54.61) (xy 110.49 81.28)
 		)
 		(stroke
@@ -2409,16 +2604,6 @@
 			(type default)
 		)
 		(uuid "495a1d74-0cc1-4816-bbe0-809e294111f2")
-	)
-	(wire
-		(pts
-			(xy 137.16 93.98) (xy 158.75 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49d31e33-830f-4d07-bbab-f2acbca7ebf5")
 	)
 	(wire
 		(pts
@@ -2432,6 +2617,26 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 147.32) (xy 223.52 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d05ec58-8b82-4dc7-983d-fa80b0809783")
+	)
+	(wire
+		(pts
+			(xy 223.52 93.98) (xy 245.11 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc76986-f020-48f4-ae38-82eda230f897")
+	)
+	(wire
+		(pts
 			(xy 283.21 81.28) (xy 283.21 107.95)
 		)
 		(stroke
@@ -2439,16 +2644,6 @@
 			(type default)
 		)
 		(uuid "4e167acc-12a7-4c4a-961a-89ea5c2c8c40")
-	)
-	(wire
-		(pts
-			(xy 396.24 93.98) (xy 403.86 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ee89223-d12a-45fc-bc40-d170ce33b105")
 	)
 	(wire
 		(pts
@@ -2512,33 +2707,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 147.32) (xy 158.75 147.32)
+			(xy 115.57 173.99) (xy 137.16 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "544eecf8-ae96-4fc4-8e06-610b84624138")
-	)
-	(wire
-		(pts
-			(xy 201.93 40.64) (xy 223.52 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55de8ad2-4f59-4478-919b-8df630210d0b")
-	)
-	(wire
-		(pts
-			(xy 309.88 93.98) (xy 331.47 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "569c99f7-da22-4100-8402-f354f29d5369")
+		(uuid "567daabd-b95c-41e8-b486-948e444e085a")
 	)
 	(wire
 		(pts
@@ -2572,23 +2747,23 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 120.65) (xy 201.93 120.65)
+			(xy 245.11 67.31) (xy 266.7 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5885d5fb-4622-42f7-afa0-5f6047d2b753")
+		(uuid "596bb89b-4638-4e4e-bf88-f77393508a0b")
 	)
 	(wire
 		(pts
-			(xy 115.57 120.65) (xy 137.16 120.65)
+			(xy 50.8 40.64) (xy 72.39 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5954541e-d28b-4bad-ba13-86f431b240fd")
+		(uuid "5a299fcb-d0f5-4216-b604-a194cfbd3e3c")
 	)
 	(wire
 		(pts
@@ -2642,16 +2817,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 40.64) (xy 201.93 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60f6bd0f-a8e5-4e53-bbcf-fb31d55982b2")
-	)
-	(wire
-		(pts
 			(xy 175.26 27.94) (xy 175.26 54.61)
 		)
 		(stroke
@@ -2669,6 +2834,26 @@
 			(type default)
 		)
 		(uuid "61860e4f-5dac-4067-931b-05da725bc66e")
+	)
+	(wire
+		(pts
+			(xy 72.39 147.32) (xy 93.98 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629dae26-de07-4b07-ac87-a0a833ba9992")
+	)
+	(wire
+		(pts
+			(xy 201.93 200.66) (xy 245.11 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ae9c91-cfcb-4efa-81c5-c87cb540627a")
 	)
 	(wire
 		(pts
@@ -2702,36 +2887,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 40.64) (xy 93.98 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6759746e-b0c2-4411-83f4-8fde14fc09d6")
-	)
-	(wire
-		(pts
-			(xy 29.21 147.32) (xy 50.8 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "680c82e4-92a7-4a3a-abe2-0149730d5883")
-	)
-	(wire
-		(pts
-			(xy 201.93 173.99) (xy 223.52 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "695b1f9e-c21b-4b52-8d73-dabbc8fcfda7")
-	)
-	(wire
-		(pts
 			(xy 153.67 54.61) (xy 153.67 81.28)
 		)
 		(stroke
@@ -2739,6 +2894,26 @@
 			(type default)
 		)
 		(uuid "6a1267f7-e55c-4a93-994d-283c69c75e89")
+	)
+	(wire
+		(pts
+			(xy 288.29 173.99) (xy 309.88 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b50c4ab-46ad-4e23-91a2-feac6b3052ca")
+	)
+	(wire
+		(pts
+			(xy 374.65 200.66) (xy 402.59 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c897375-5c0b-4fa4-927c-91da12b3b97d")
 	)
 	(wire
 		(pts
@@ -2772,16 +2947,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 93.98) (xy 50.8 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "703fa93d-c285-42f0-92e1-972463905dfc")
-	)
-	(wire
-		(pts
 			(xy 45.72 134.62) (xy 45.72 161.29)
 		)
 		(stroke
@@ -2792,23 +2957,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 40.64) (xy 266.7 40.64)
+			(xy 223.52 40.64) (xy 245.11 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71840c4d-75f1-4b32-8f84-cd9bb032b573")
-	)
-	(wire
-		(pts
-			(xy 266.7 147.32) (xy 288.29 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71ea3ec4-e352-4ec1-ba37-1ccced5dd4b4")
+		(uuid "7222cdb7-b19f-4862-87a7-98c60000c636")
 	)
 	(wire
 		(pts
@@ -2822,23 +2977,33 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 120.65) (xy 50.8 120.65)
+			(xy 50.8 67.31) (xy 72.39 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7350e051-3676-42d8-9026-6176b4ede7f3")
+		(uuid "72714b82-09ae-4ba0-9105-e439c7621947")
 	)
 	(wire
 		(pts
-			(xy 223.52 40.64) (xy 245.11 40.64)
+			(xy 180.34 173.99) (xy 201.93 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77fda234-91e9-4fef-93ea-35083495b498")
+		(uuid "72ed42ff-40e7-49ec-bd77-97d1fd3e7461")
+	)
+	(wire
+		(pts
+			(xy 93.98 173.99) (xy 115.57 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754e8740-39aa-46ae-bce7-d059310bbf0c")
 	)
 	(wire
 		(pts
@@ -2852,13 +3017,13 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 200.66) (xy 402.59 200.66)
+			(xy 115.57 147.32) (xy 137.16 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78f39a54-dfe3-4fb7-a35b-521e147ff05d")
+		(uuid "784cb8c2-0f50-4036-818e-23366feabad5")
 	)
 	(wire
 		(pts
@@ -2882,6 +3047,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 93.98) (xy 288.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5db1f2-1a1c-4da3-9f5e-53b61d58036e")
+	)
+	(wire
+		(pts
 			(xy 45.72 27.94) (xy 45.72 54.61)
 		)
 		(stroke
@@ -2889,6 +3064,16 @@
 			(type default)
 		)
 		(uuid "7cf0c9f3-626d-4da7-bdc9-530526c43e95")
+	)
+	(wire
+		(pts
+			(xy 266.7 200.66) (xy 288.29 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d45947c-8181-47c8-bf34-eeafb489a824")
 	)
 	(wire
 		(pts
@@ -2942,6 +3127,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 147.32) (xy 180.34 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d6f7d2-1e9c-45c0-b3d8-827bbef671cc")
+	)
+	(wire
+		(pts
 			(xy 88.9 27.94) (xy 88.9 54.61)
 		)
 		(stroke
@@ -2952,13 +3147,43 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 40.64) (xy 288.29 40.64)
+			(xy 331.47 93.98) (xy 353.06 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83f8d557-c8a2-462a-9bcc-11dc8809e0a8")
+		(uuid "84106389-eba5-4b2b-b2e1-5ecb189cb65e")
+	)
+	(wire
+		(pts
+			(xy 180.34 93.98) (xy 201.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845d1c9b-2b99-44ff-b5ad-f0e473a7dfd1")
+	)
+	(wire
+		(pts
+			(xy 50.8 200.66) (xy 72.39 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874cc253-38db-4fe5-bb41-be9979fa95e0")
+	)
+	(wire
+		(pts
+			(xy 93.98 147.32) (xy 115.57 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8912ad68-1ac8-40fd-899d-7cf4b3788a96")
 	)
 	(wire
 		(pts
@@ -2969,36 +3194,6 @@
 			(type default)
 		)
 		(uuid "8a1b96df-5c85-4899-9578-6b5871dd198e")
-	)
-	(wire
-		(pts
-			(xy 115.57 147.32) (xy 137.16 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a55e11e-8211-4d91-affa-a2b61534d6de")
-	)
-	(wire
-		(pts
-			(xy 266.7 67.31) (xy 288.29 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b4bd245-cdc2-4896-844c-0ef4caaba59a")
-	)
-	(wire
-		(pts
-			(xy 137.16 67.31) (xy 158.75 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8be94998-c95e-40e1-9b0f-f1ab8447afa7")
 	)
 	(wire
 		(pts
@@ -3022,13 +3217,33 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 120.65) (xy 115.57 120.65)
+			(xy 201.93 120.65) (xy 223.52 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d667892-52f0-45b7-8a6a-c05652cb33fc")
+		(uuid "8d442f9e-b8f6-410f-aead-b4cf794764cb")
+	)
+	(wire
+		(pts
+			(xy 137.16 120.65) (xy 158.75 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d541576-bc79-4e97-8004-7b6cd7094e0d")
+	)
+	(wire
+		(pts
+			(xy 353.06 147.32) (xy 374.65 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ecae316-c6de-4ffe-a390-5dd30816f688")
 	)
 	(wire
 		(pts
@@ -3042,33 +3257,23 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 93.98) (xy 353.06 93.98)
+			(xy 137.16 93.98) (xy 158.75 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "906fed83-7dd9-4e0a-a624-0965606eaf10")
+		(uuid "904d9e7c-2b14-4a3b-b777-144a553c341b")
 	)
 	(wire
 		(pts
-			(xy 158.75 40.64) (xy 180.34 40.64)
+			(xy 331.47 173.99) (xy 353.06 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9177be30-482f-4266-9cec-f76b0193368a")
-	)
-	(wire
-		(pts
-			(xy 201.93 93.98) (xy 223.52 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92827bad-161c-4e48-b283-40d02cf35a9b")
+		(uuid "92bf63c9-1a55-462b-9bbf-8c1fa0018a2b")
 	)
 	(wire
 		(pts
@@ -3089,6 +3294,16 @@
 			(type default)
 		)
 		(uuid "945b3de3-fc79-4c98-84f7-690ed27bb25a")
+	)
+	(wire
+		(pts
+			(xy 137.16 40.64) (xy 158.75 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95474c2f-9297-4d03-985c-1a1b188950a1")
 	)
 	(wire
 		(pts
@@ -3122,16 +3337,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 67.31) (xy 50.8 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9865e439-72df-45ef-8c02-a7b6a91821f4")
-	)
-	(wire
-		(pts
 			(xy 153.67 107.95) (xy 153.67 134.62)
 		)
 		(stroke
@@ -3142,13 +3347,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 147.32) (xy 223.52 147.32)
+			(xy 93.98 93.98) (xy 115.57 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b92930a-0fd5-4829-a4aa-ac0aa5c08f2e")
+		(uuid "9a14a980-9c63-4b8e-94e5-5d156cfe5c56")
+	)
+	(wire
+		(pts
+			(xy 29.21 173.99) (xy 50.8 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9ab9e5-7434-49fc-98f6-ce53b44232e0")
 	)
 	(wire
 		(pts
@@ -3162,13 +3377,33 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 147.32) (xy 115.57 147.32)
+			(xy 93.98 67.31) (xy 115.57 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f19e59b-a90b-48f3-92e8-fcdebc15cf1f")
+		(uuid "9e7c3775-75bf-4bfe-86ab-876eb2316f29")
+	)
+	(wire
+		(pts
+			(xy 245.11 120.65) (xy 266.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f30d33f-5fad-4c92-89a2-bf5123320374")
+	)
+	(wire
+		(pts
+			(xy 245.11 93.98) (xy 266.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f541cdd-f458-4814-8008-1cb6e08271d9")
 	)
 	(wire
 		(pts
@@ -3182,23 +3417,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 173.99) (xy 201.93 173.99)
+			(xy 137.16 147.32) (xy 158.75 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fd679e3-b97a-4a66-9779-afdfcfe31600")
-	)
-	(wire
-		(pts
-			(xy 223.52 93.98) (xy 245.11 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0bca7fc-c481-400b-9126-f89b7ed7ec1c")
+		(uuid "9f977844-b053-4e23-91be-63ccdf04a8ed")
 	)
 	(wire
 		(pts
@@ -3212,13 +3437,13 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 173.99) (xy 331.47 173.99)
+			(xy 396.24 173.99) (xy 402.59 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1551a93-ede5-485f-bd63-67b58363e660")
+		(uuid "a15b0a16-d527-46a2-9493-67c521dee09e")
 	)
 	(wire
 		(pts
@@ -3242,43 +3467,23 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 120.65) (xy 245.11 120.65)
+			(xy 93.98 40.64) (xy 115.57 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a314c1e2-5e8f-4395-a30b-a6464226aa49")
+		(uuid "a5d7e64f-a2d2-4b10-81aa-6c6e9158815f")
 	)
 	(wire
 		(pts
-			(xy 288.29 173.99) (xy 309.88 173.99)
+			(xy 245.11 200.66) (xy 266.7 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a32808b7-0224-4831-ac70-1f272be02a4a")
-	)
-	(wire
-		(pts
-			(xy 288.29 67.31) (xy 309.88 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3a8939d-daad-4750-8e99-d5ea943e8674")
-	)
-	(wire
-		(pts
-			(xy 396.24 120.65) (xy 403.86 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7651c27-634c-4cd4-ba75-d2c4e3c2c0c5")
+		(uuid "a7871744-4f81-4b6d-a141-5689c7c55249")
 	)
 	(wire
 		(pts
@@ -3312,33 +3517,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 147.32) (xy 180.34 147.32)
+			(xy 158.75 93.98) (xy 180.34 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa069845-cf1b-41c1-a62b-9caa059a8445")
-	)
-	(wire
-		(pts
-			(xy 137.16 40.64) (xy 158.75 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab7cc2f5-73c7-4abe-8bcb-2d25a6436bf3")
-	)
-	(wire
-		(pts
-			(xy 50.8 173.99) (xy 72.39 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab984923-2bd4-498a-b01b-079f035408cc")
+		(uuid "aa675579-1609-4909-b7e1-f5c8ef4124df")
 	)
 	(wire
 		(pts
@@ -3352,23 +3537,53 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 200.66) (xy 72.39 200.66)
+			(xy 201.93 67.31) (xy 223.52 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac66ea71-a8ef-4804-83c4-6654a524b222")
+		(uuid "adca7d90-ac55-43a2-be48-63e27903fc15")
 	)
 	(wire
 		(pts
-			(xy 288.29 120.65) (xy 309.88 120.65)
+			(xy 50.8 120.65) (xy 72.39 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae965e2b-51db-49c4-8ad0-b2eb9280398f")
+		(uuid "adee89a7-9fd6-454f-9d97-77169cab8682")
+	)
+	(wire
+		(pts
+			(xy 309.88 93.98) (xy 331.47 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae085be0-32bd-4f3f-b2b4-48a41ea3eb94")
+	)
+	(wire
+		(pts
+			(xy 115.57 67.31) (xy 137.16 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af78161a-13f2-4a6a-9216-a14d1c15c083")
+	)
+	(wire
+		(pts
+			(xy 288.29 93.98) (xy 309.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa30aff-ffc3-43a1-acf9-b99f06efa213")
 	)
 	(wire
 		(pts
@@ -3382,43 +3597,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 67.31) (xy 266.7 67.31)
+			(xy 137.16 173.99) (xy 158.75 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b26988f4-b2b0-42c3-9522-c0368e573275")
-	)
-	(wire
-		(pts
-			(xy 353.06 200.66) (xy 374.65 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2bc1071-2248-4896-8007-89fe35c8f4e9")
-	)
-	(wire
-		(pts
-			(xy 266.7 173.99) (xy 288.29 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b38432fa-0736-4200-91ac-54eddb0f2366")
-	)
-	(wire
-		(pts
-			(xy 158.75 93.98) (xy 180.34 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b43b8d80-eb2a-4c00-866e-97925479a016")
+		(uuid "b1e43166-620a-46b6-8f92-cc9321d210ad")
 	)
 	(wire
 		(pts
@@ -3432,16 +3617,6 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 147.32) (xy 331.47 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b48c1377-e27c-4c73-8c23-a01e7872452a")
-	)
-	(wire
-		(pts
 			(xy 218.44 107.95) (xy 218.44 134.62)
 		)
 		(stroke
@@ -3452,23 +3627,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 120.65) (xy 158.75 120.65)
+			(xy 72.39 120.65) (xy 93.98 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b53278fd-316e-441f-9148-35074600de47")
+		(uuid "b67e3f7c-c628-43e2-9adf-9751421106be")
 	)
 	(wire
 		(pts
-			(xy 201.93 120.65) (xy 223.52 120.65)
+			(xy 115.57 40.64) (xy 137.16 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b87b010c-a1e8-496f-8468-f5e8329aa955")
+		(uuid "bb02bbe2-0e00-4560-af9d-23751c046275")
 	)
 	(wire
 		(pts
@@ -3482,26 +3657,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 93.98) (xy 93.98 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbff4a49-8553-4177-acac-5f5ec6819c55")
-	)
-	(wire
-		(pts
-			(xy 245.11 93.98) (xy 266.7 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc9d6398-8c24-47ad-a5f6-c3f62840d973")
-	)
-	(wire
-		(pts
 			(xy 304.8 81.28) (xy 304.8 107.95)
 		)
 		(stroke
@@ -3512,13 +3667,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 67.31) (xy 72.39 67.31)
+			(xy 331.47 40.64) (xy 405.13 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be2b8e22-fbf3-4357-9583-82e4e9f47e3e")
+		(uuid "be8ac081-7901-4d4b-a9de-07f5542f1840")
 	)
 	(wire
 		(pts
@@ -3532,23 +3687,13 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 200.66) (xy 309.88 200.66)
+			(xy 158.75 120.65) (xy 180.34 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c013d36f-ee33-41cc-914a-5b979d50f0b3")
-	)
-	(wire
-		(pts
-			(xy 331.47 40.64) (xy 405.13 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1cc309a-88dd-4821-a0a2-b34eb5c132c0")
+		(uuid "c039b9a4-5159-42ea-8af3-6f12729e754b")
 	)
 	(wire
 		(pts
@@ -3562,23 +3707,13 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 120.65) (xy 331.47 120.65)
+			(xy 374.65 173.99) (xy 396.24 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c20c873f-0ddd-4bef-9e6b-52dd9c276e93")
-	)
-	(wire
-		(pts
-			(xy 374.65 120.65) (xy 396.24 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3d4a798-f884-4293-b176-686bac25a032")
+		(uuid "c24e9535-f33d-4554-b10a-4df89a544c63")
 	)
 	(wire
 		(pts
@@ -3592,13 +3727,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 147.32) (xy 72.39 147.32)
+			(xy 180.34 67.31) (xy 201.93 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c75143f2-751a-4066-a1fc-dbe66f5b7ab8")
+		(uuid "c7747aff-182a-49a2-9315-2a744a5b80d1")
 	)
 	(wire
 		(pts
@@ -3612,6 +3747,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 147.32) (xy 72.39 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca091197-3d34-4629-860d-91dc40e22696")
+	)
+	(wire
+		(pts
 			(xy 304.8 107.95) (xy 304.8 161.29)
 		)
 		(stroke
@@ -3622,13 +3767,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 120.65) (xy 266.7 120.65)
+			(xy 374.65 147.32) (xy 403.86 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf5a4ec9-c48f-498b-8179-6a9e36984bf3")
+		(uuid "cb63bc03-39b6-418d-acaf-0e427bb84648")
 	)
 	(wire
 		(pts
@@ -3642,26 +3787,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 147.32) (xy 245.11 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1173ad5-485f-46f2-b873-cafe7b22db16")
-	)
-	(wire
-		(pts
-			(xy 288.29 93.98) (xy 309.88 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d17a8dbe-e9ee-4ae0-b12e-ccf74bcd65dd")
-	)
-	(wire
-		(pts
 			(xy 24.13 20.32) (xy 24.13 54.61)
 		)
 		(stroke
@@ -3669,26 +3794,6 @@
 			(type default)
 		)
 		(uuid "d1978ba6-194a-4fc0-83f5-2f37e98f7b02")
-	)
-	(wire
-		(pts
-			(xy 309.88 200.66) (xy 331.47 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1e0f000-72c0-4bc1-8b8a-466dd0ecb810")
-	)
-	(wire
-		(pts
-			(xy 374.65 93.98) (xy 396.24 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1e56c01-3dcd-4e71-ae72-6dfd8d93d1f3")
 	)
 	(wire
 		(pts
@@ -3712,6 +3817,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 67.31) (xy 50.8 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d472d7b8-d490-472a-be89-fd5be7353479")
+	)
+	(wire
+		(pts
 			(xy 175.26 81.28) (xy 175.26 107.95)
 		)
 		(stroke
@@ -3722,13 +3837,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 200.66) (xy 137.16 200.66)
+			(xy 374.65 120.65) (xy 396.24 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d64c9af6-f065-4c2d-ad4c-343de97dde74")
+		(uuid "d5f9909d-c287-4fd3-a835-75dab647e538")
 	)
 	(wire
 		(pts
@@ -3742,16 +3857,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 40.64) (xy 115.57 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7b06427-1668-4194-93c2-ce1fb2fa4070")
-	)
-	(wire
-		(pts
 			(xy 283.21 161.29) (xy 283.21 187.96)
 		)
 		(stroke
@@ -3762,13 +3867,23 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 173.99) (xy 402.59 173.99)
+			(xy 353.06 120.65) (xy 374.65 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d877a76d-407d-4c53-a037-b1db40d2f372")
+		(uuid "db3a9760-5999-415a-93cd-3170d2be6e1b")
+	)
+	(wire
+		(pts
+			(xy 29.21 120.65) (xy 50.8 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf4a755-89fa-4340-9a3e-936333deac87")
 	)
 	(wire
 		(pts
@@ -3778,57 +3893,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "da00bfa8-f3df-4cca-a48d-d33581a6e229")
+		(uuid "dd27e01b-051f-42fb-b81d-1cfc4b107d27")
 	)
 	(wire
 		(pts
-			(xy 29.21 173.99) (xy 50.8 173.99)
+			(xy 223.52 120.65) (xy 245.11 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dadd0171-21fb-4600-88c5-a48d10c74820")
-	)
-	(wire
-		(pts
-			(xy 309.88 67.31) (xy 331.47 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db9f0711-069f-4de7-964d-2a6ea64cf81b")
-	)
-	(wire
-		(pts
-			(xy 331.47 147.32) (xy 353.06 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc70b34a-931a-4f5c-9f2d-8322ac75fead")
-	)
-	(wire
-		(pts
-			(xy 158.75 173.99) (xy 180.34 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd746420-31fd-441e-a970-1b9a2f06b1ad")
-	)
-	(wire
-		(pts
-			(xy 93.98 173.99) (xy 115.57 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "def7357c-bfda-49dc-8798-3dd38ae8fc59")
+		(uuid "e0b9449f-cd69-480f-a331-c5268e8622ac")
 	)
 	(wire
 		(pts
@@ -3852,6 +3927,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 173.99) (xy 331.47 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e4b229-f9d7-46ef-9433-8631ebc8e011")
+	)
+	(wire
+		(pts
 			(xy 261.62 54.61) (xy 261.62 81.28)
 		)
 		(stroke
@@ -3862,33 +3947,73 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 120.65) (xy 180.34 120.65)
+			(xy 115.57 120.65) (xy 137.16 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e496857b-d9fc-4e22-be42-8fd80a31f115")
+		(uuid "e41641ed-745e-471e-a14f-81c4ee6c35e0")
 	)
 	(wire
 		(pts
-			(xy 115.57 40.64) (xy 137.16 40.64)
+			(xy 374.65 93.98) (xy 396.24 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e82361b9-b5a1-416c-9d28-4ebdfdf0a735")
+		(uuid "e4a9a414-6c9a-4142-8b06-2e432a0261d0")
 	)
 	(wire
 		(pts
-			(xy 201.93 200.66) (xy 245.11 200.66)
+			(xy 331.47 147.32) (xy 353.06 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea27edc3-f9a1-4fb2-ace0-a903e1e17033")
+		(uuid "e539d13d-7084-451e-84f1-6f79a65e6b03")
+	)
+	(wire
+		(pts
+			(xy 72.39 93.98) (xy 93.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6706bc3-f86f-4182-899a-f3c06fafbce9")
+	)
+	(wire
+		(pts
+			(xy 288.29 120.65) (xy 309.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e696d697-a607-4607-915f-67af6dd65510")
+	)
+	(wire
+		(pts
+			(xy 158.75 173.99) (xy 180.34 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e36931-a4c7-46f0-9a08-2e646c472271")
+	)
+	(wire
+		(pts
+			(xy 266.7 40.64) (xy 288.29 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96e7b86-bbc2-4207-9be1-87fb29d4334b")
 	)
 	(wire
 		(pts
@@ -3902,6 +4027,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 147.32) (xy 201.93 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae8fb3d-e432-4d6a-8dbe-acbb13e5ba7e")
+	)
+	(wire
+		(pts
 			(xy 16.51 40.64) (xy 50.8 40.64)
 		)
 		(stroke
@@ -3909,6 +4044,36 @@
 			(type default)
 		)
 		(uuid "eb10b6b0-ded4-46dc-9df6-34f64598bc09")
+	)
+	(wire
+		(pts
+			(xy 72.39 173.99) (xy 93.98 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb42b6b0-564b-4a0a-b726-c4e484221061")
+	)
+	(wire
+		(pts
+			(xy 29.21 200.66) (xy 50.8 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec279ad9-d436-421d-a3f7-436269056252")
+	)
+	(wire
+		(pts
+			(xy 288.29 40.64) (xy 309.88 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4b4476-bfef-4c88-8f89-d986df82e9bb")
 	)
 	(wire
 		(pts
@@ -3932,23 +4097,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 93.98) (xy 115.57 93.98)
+			(xy 180.34 40.64) (xy 201.93 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edcc31ac-4cd2-4553-8806-395c9315a466")
-	)
-	(wire
-		(pts
-			(xy 374.65 173.99) (xy 396.24 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0e81b95-f36d-46e5-b546-0ed911239f6f")
+		(uuid "ee2af7a7-74fd-4b30-9e2c-d50be7be0518")
 	)
 	(wire
 		(pts
@@ -3962,13 +4117,13 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 120.65) (xy 353.06 120.65)
+			(xy 137.16 67.31) (xy 158.75 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f25e03cd-db72-4716-923a-43ff7094da7c")
+		(uuid "f2ce1079-204f-4a03-a44c-8bbe94738777")
 	)
 	(wire
 		(pts
@@ -3982,16 +4137,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 67.31) (xy 201.93 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4a26cb8-18fb-40d2-9fd5-a60ca0a53562")
-	)
-	(wire
-		(pts
 			(xy 391.16 161.29) (xy 391.16 201.93)
 		)
 		(stroke
@@ -4002,23 +4147,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 67.31) (xy 245.11 67.31)
+			(xy 245.11 173.99) (xy 266.7 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4f6c6b2-2102-47db-b2c2-45ee15cd77ad")
-	)
-	(wire
-		(pts
-			(xy 93.98 67.31) (xy 115.57 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5836a81-8961-4fab-ba32-84670030b637")
+		(uuid "f5564910-aa6a-427f-9cc8-46ed69e0c56c")
 	)
 	(wire
 		(pts
@@ -4029,6 +4164,16 @@
 			(type default)
 		)
 		(uuid "f62b68cc-5bbd-4a8f-a554-f55511846693")
+	)
+	(wire
+		(pts
+			(xy 266.7 67.31) (xy 288.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f653e542-7a71-46f8-8ebb-b79bd2a40d36")
 	)
 	(wire
 		(pts
@@ -4052,33 +4197,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 120.65) (xy 93.98 120.65)
+			(xy 309.88 200.66) (xy 331.47 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f74ff8a3-032a-4233-9d13-2ef1fc0d888b")
-	)
-	(wire
-		(pts
-			(xy 50.8 93.98) (xy 72.39 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7edc1fc-f1f2-4bf1-8cd2-435151e63a82")
-	)
-	(wire
-		(pts
-			(xy 72.39 67.31) (xy 93.98 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f873a224-aa25-4edd-9387-2abe3940ef50")
+		(uuid "f88b4703-6d2c-40b1-9942-a7dd0412000c")
 	)
 	(wire
 		(pts
@@ -4112,33 +4237,23 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 93.98) (xy 374.65 93.98)
+			(xy 50.8 93.98) (xy 72.39 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc2be915-13ee-4b79-be22-a93659a5afd2")
+		(uuid "fbe52c3f-a303-411f-b79f-04c16072b2a9")
 	)
 	(wire
 		(pts
-			(xy 180.34 93.98) (xy 201.93 93.98)
+			(xy 201.93 93.98) (xy 223.52 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fdbe1adb-c9fb-471f-8230-be72b22e793f")
-	)
-	(wire
-		(pts
-			(xy 223.52 173.99) (xy 245.11 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe588e8d-8ff2-437f-a4f2-7547a95c840f")
+		(uuid "fd655e3f-acaa-45ab-99f1-ca646877e4de")
 	)
 	(wire
 		(pts
@@ -4769,8 +4884,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 158.75 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 158.75 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4779,21 +4894,21 @@
 		(fields_autoplaced yes)
 		(uuid "018d8d86-e8ab-4e3d-b734-27115b9a6dfb")
 		(property "Reference" "D72"
-			(at 161.29 142.2399 90)
+			(at 161.29 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 161.29 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 161.29 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -4993,8 +5108,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 331.47 36.83 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 331.47 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5003,21 +5118,21 @@
 		(fields_autoplaced yes)
 		(uuid "056c7d45-04d4-45e9-bd34-bef9dc87a9cb")
 		(property "Reference" "D14"
-			(at 334.01 35.5599 90)
+			(at 334.01 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 334.01 38.0999 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 334.01 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -5149,8 +5264,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 72.39 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 72.39 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5159,21 +5274,21 @@
 		(fields_autoplaced yes)
 		(uuid "09e21d62-466e-4556-92f3-b75adfeb1aec")
 		(property "Reference" "D68"
-			(at 74.93 142.2399 90)
+			(at 74.93 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 74.93 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 74.93 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -5237,8 +5352,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 288.29 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 288.29 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5247,21 +5362,21 @@
 		(fields_autoplaced yes)
 		(uuid "0a9f5b08-212e-4d51-8a52-8afdaaa85771")
 		(property "Reference" "D78"
-			(at 290.83 142.2399 90)
+			(at 290.83 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 290.83 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 290.83 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -5461,8 +5576,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 50.8 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 50.8 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5471,21 +5586,21 @@
 		(fields_autoplaced yes)
 		(uuid "0c281ddf-1b07-4eec-b9df-b894b83da4db")
 		(property "Reference" "D83"
-			(at 53.34 168.9099 90)
+			(at 53.34 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 53.34 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 53.34 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -5549,8 +5664,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 309.88 36.83 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 309.88 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5559,21 +5674,21 @@
 		(fields_autoplaced yes)
 		(uuid "0ce561ad-a83a-4296-a04f-5178f2041ba0")
 		(property "Reference" "D13"
-			(at 312.42 35.5599 90)
+			(at 312.42 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 312.42 38.0999 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 312.42 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -5773,8 +5888,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 266.7 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 266.7 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5783,21 +5898,21 @@
 		(fields_autoplaced yes)
 		(uuid "0f004a63-13c2-4992-a107-06de4b9f7b0e")
 		(property "Reference" "D77"
-			(at 269.24 142.2399 90)
+			(at 269.24 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 269.24 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 269.24 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -5861,8 +5976,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 223.52 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 223.52 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5871,21 +5986,21 @@
 		(fields_autoplaced yes)
 		(uuid "10111c3d-a8ac-47f1-9f11-4b216060d53c")
 		(property "Reference" "D75"
-			(at 226.06 142.2399 90)
+			(at 226.06 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 226.06 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 226.06 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -5949,8 +6064,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 201.93 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 201.93 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5959,21 +6074,21 @@
 		(fields_autoplaced yes)
 		(uuid "10e98b47-ccd0-41f9-86aa-19b9c247c6bf")
 		(property "Reference" "D38"
-			(at 204.47 88.8999 90)
+			(at 204.47 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 204.47 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 204.47 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -6037,8 +6152,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 29.21 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 29.21 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6047,21 +6162,21 @@
 		(fields_autoplaced yes)
 		(uuid "11b635ac-c8f3-49ed-8b52-666735b39a78")
 		(property "Reference" "D82"
-			(at 31.75 168.9099 90)
+			(at 31.75 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 31.75 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 31.75 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -6125,8 +6240,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 223.52 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 223.52 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6135,21 +6250,21 @@
 		(fields_autoplaced yes)
 		(uuid "138693db-210d-47d9-8db0-5313c71e0dc3")
 		(property "Reference" "D91"
-			(at 226.06 168.9099 90)
+			(at 226.06 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 226.06 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 226.06 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -6349,8 +6464,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 288.29 36.83 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 288.29 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6359,21 +6474,21 @@
 		(fields_autoplaced yes)
 		(uuid "15e2f936-0c44-4c94-b863-e5b59decbf98")
 		(property "Reference" "D12"
-			(at 290.83 35.5599 90)
+			(at 290.83 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 290.83 38.0999 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 290.83 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -6437,8 +6552,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 180.34 36.83 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 180.34 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6447,21 +6562,21 @@
 		(fields_autoplaced yes)
 		(uuid "166b211a-1b1c-4505-9d00-de4426840817")
 		(property "Reference" "D7"
-			(at 182.88 35.5599 90)
+			(at 182.88 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 182.88 38.0999 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 182.88 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -6593,8 +6708,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 115.57 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 115.57 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6603,21 +6718,21 @@
 		(fields_autoplaced yes)
 		(uuid "1beb8be1-1d00-4b67-aa15-ce1ef09d73d1")
 		(property "Reference" "D34"
-			(at 118.11 88.8999 90)
+			(at 118.11 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 118.11 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 118.11 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -6749,8 +6864,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 29.21 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 29.21 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6759,21 +6874,21 @@
 		(fields_autoplaced yes)
 		(uuid "1e4cc3d5-fbd5-4e35-975b-01c323e850d3")
 		(property "Reference" "D48"
-			(at 31.75 115.5699 90)
+			(at 31.75 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 31.75 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 31.75 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -6905,8 +7020,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 50.8 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 50.8 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6915,21 +7030,21 @@
 		(fields_autoplaced yes)
 		(uuid "20aec23d-8bcc-46f3-9c03-3e5af4a71096")
 		(property "Reference" "D31"
-			(at 53.34 88.8999 90)
+			(at 53.34 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 53.34 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 53.34 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -6993,8 +7108,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 93.98 63.5 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 93.98 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7003,21 +7118,21 @@
 		(fields_autoplaced yes)
 		(uuid "212b1b72-e72c-4c82-873d-15b021ee7778")
 		(property "Reference" "D18"
-			(at 96.52 62.2299 90)
+			(at 96.52 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 96.52 64.7699 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 96.52 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -7149,8 +7264,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 201.93 196.85 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 201.93 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7159,21 +7274,21 @@
 		(fields_autoplaced yes)
 		(uuid "24532d9a-f749-4da5-af83-4e9f78795ae4")
 		(property "Reference" "D104"
-			(at 204.47 195.5799 90)
+			(at 204.47 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 204.47 198.1199 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 204.47 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -7237,8 +7352,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 93.98 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 93.98 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7247,21 +7362,21 @@
 		(fields_autoplaced yes)
 		(uuid "2499d44c-2769-46b7-80f2-7b8bc23d8fd3")
 		(property "Reference" "D69"
-			(at 96.52 142.2399 90)
+			(at 96.52 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 96.52 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 96.52 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -7325,8 +7440,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 245.11 63.5 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 245.11 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7335,21 +7450,21 @@
 		(fields_autoplaced yes)
 		(uuid "263f189e-aea0-4055-89ea-c3c22f79ede3")
 		(property "Reference" "D25"
-			(at 247.65 62.2299 90)
+			(at 247.65 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 247.65 64.7699 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 247.65 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -7413,8 +7528,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 331.47 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 331.47 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7423,21 +7538,21 @@
 		(fields_autoplaced yes)
 		(uuid "26db64cc-90f9-4ec1-b725-20718b331b28")
 		(property "Reference" "D44"
-			(at 334.01 88.8999 90)
+			(at 334.01 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 334.01 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 334.01 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -7501,8 +7616,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 180.34 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 180.34 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7511,21 +7626,21 @@
 		(fields_autoplaced yes)
 		(uuid "27929fc7-76d0-4369-89b6-bd4fb52ea829")
 		(property "Reference" "D55"
-			(at 182.88 115.5699 90)
+			(at 182.88 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 182.88 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 182.88 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -7589,8 +7704,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 137.16 36.83 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 137.16 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7599,21 +7714,21 @@
 		(fields_autoplaced yes)
 		(uuid "290ae73c-16cb-4372-8743-aea80bbdc17b")
 		(property "Reference" "D5"
-			(at 139.7 35.5599 90)
+			(at 139.7 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 139.7 38.0999 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 139.7 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -7677,8 +7792,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 158.75 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 158.75 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7687,21 +7802,21 @@
 		(fields_autoplaced yes)
 		(uuid "29e13725-1890-4fd2-9d9c-30ec037ba993")
 		(property "Reference" "D36"
-			(at 161.29 88.8999 90)
+			(at 161.29 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 161.29 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 161.29 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -7833,8 +7948,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 396.24 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 396.24 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7843,21 +7958,21 @@
 		(fields_autoplaced yes)
 		(uuid "2d74e91e-fcd0-4d05-bad8-902807712f4c")
 		(property "Reference" "D47"
-			(at 398.78 88.8999 90)
+			(at 398.78 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 398.78 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 398.78 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -8057,8 +8172,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 115.57 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 115.57 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8067,21 +8182,21 @@
 		(fields_autoplaced yes)
 		(uuid "319a8427-e6d9-4421-b48d-28a732ff99b2")
 		(property "Reference" "D52"
-			(at 118.11 115.5699 90)
+			(at 118.11 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 118.11 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 118.11 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -8213,8 +8328,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 50.8 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 50.8 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8223,21 +8338,21 @@
 		(fields_autoplaced yes)
 		(uuid "3346ed05-7c35-4257-af7f-e81a2113acd5")
 		(property "Reference" "D67"
-			(at 53.34 142.2399 90)
+			(at 53.34 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 53.34 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 53.34 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -8301,8 +8416,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 72.39 63.5 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 72.39 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8311,21 +8426,21 @@
 		(fields_autoplaced yes)
 		(uuid "33892f05-dbcb-42b8-b62a-8477ca5a4709")
 		(property "Reference" "D17"
-			(at 74.93 62.2299 90)
+			(at 74.93 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 74.93 64.7699 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 74.93 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -8729,8 +8844,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 158.75 36.83 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 158.75 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8739,21 +8854,21 @@
 		(fields_autoplaced yes)
 		(uuid "38d90e52-a5de-4170-87bd-546d720dd791")
 		(property "Reference" "D6"
-			(at 161.29 35.5599 90)
+			(at 161.29 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 161.29 38.0999 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 161.29 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -8817,8 +8932,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 331.47 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 331.47 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8827,21 +8942,21 @@
 		(fields_autoplaced yes)
 		(uuid "396e5990-8bc5-4556-aa9a-bc03db30f624")
 		(property "Reference" "D62"
-			(at 334.01 115.5699 90)
+			(at 334.01 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 334.01 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 334.01 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -9109,8 +9224,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 158.75 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 158.75 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9119,21 +9234,21 @@
 		(fields_autoplaced yes)
 		(uuid "3bc2d901-db83-4ae9-b716-d5c794804e41")
 		(property "Reference" "D88"
-			(at 161.29 168.9099 90)
+			(at 161.29 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 161.29 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 161.29 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -9197,8 +9312,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 309.88 196.85 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 309.88 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9207,21 +9322,21 @@
 		(fields_autoplaced yes)
 		(uuid "3c06d152-b372-4c4d-bb07-cbcb21ac7d84")
 		(property "Reference" "D108"
-			(at 312.42 195.5799 90)
+			(at 312.42 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 312.42 198.1199 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 312.42 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -9421,8 +9536,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 374.65 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 374.65 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9431,21 +9546,21 @@
 		(fields_autoplaced yes)
 		(uuid "3df0349d-c580-46b4-96f4-49039371fade")
 		(property "Reference" "D98"
-			(at 377.19 168.9099 90)
+			(at 377.19 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 377.19 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 377.19 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -9509,8 +9624,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 72.39 36.83 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 72.39 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9519,21 +9634,21 @@
 		(fields_autoplaced yes)
 		(uuid "416b0074-310d-4a98-86d4-3a618f25b672")
 		(property "Reference" "D2"
-			(at 74.93 35.5599 90)
+			(at 74.93 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 74.93 38.0999 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 74.93 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -9733,8 +9848,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 331.47 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 331.47 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9743,21 +9858,21 @@
 		(fields_autoplaced yes)
 		(uuid "44b6f21b-fbeb-4c1c-a250-a8c033f2e398")
 		(property "Reference" "D96"
-			(at 334.01 168.9099 90)
+			(at 334.01 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 334.01 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 334.01 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -10093,8 +10208,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 288.29 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 288.29 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10103,21 +10218,21 @@
 		(fields_autoplaced yes)
 		(uuid "50b63850-8f79-44bc-ae66-ec79b270c8e5")
 		(property "Reference" "D94"
-			(at 290.83 168.9099 90)
+			(at 290.83 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 290.83 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 290.83 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -10249,8 +10364,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 115.57 63.5 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 115.57 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10259,21 +10374,21 @@
 		(fields_autoplaced yes)
 		(uuid "5558d03e-15a8-4cb1-b8c7-6f2fad0206d9")
 		(property "Reference" "D19"
-			(at 118.11 62.2299 90)
+			(at 118.11 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 118.11 64.7699 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 118.11 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -10405,8 +10520,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 29.21 196.85 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 29.21 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10415,21 +10530,21 @@
 		(fields_autoplaced yes)
 		(uuid "58b1d624-0b6a-4e57-8622-38db542207ef")
 		(property "Reference" "D100"
-			(at 31.75 195.5799 90)
+			(at 31.75 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 31.75 198.1199 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 31.75 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -10765,8 +10880,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 93.98 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 93.98 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10775,21 +10890,21 @@
 		(fields_autoplaced yes)
 		(uuid "5de83334-e9b7-4636-8777-5b54c533d1a2")
 		(property "Reference" "D33"
-			(at 96.52 88.8999 90)
+			(at 96.52 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 96.52 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 96.52 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -10989,8 +11104,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 50.8 36.83 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 50.8 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10999,21 +11114,21 @@
 		(fields_autoplaced yes)
 		(uuid "5fecb21e-1299-4896-a205-dd70736d4ce0")
 		(property "Reference" "D1"
-			(at 53.34 35.5599 90)
+			(at 53.34 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 53.34 38.0999 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 53.34 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -11145,8 +11260,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 223.52 36.83 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 223.52 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11155,21 +11270,21 @@
 		(fields_autoplaced yes)
 		(uuid "601784a9-7fe0-4c20-9abe-cc8f37db0443")
 		(property "Reference" "D9"
-			(at 226.06 35.5599 90)
+			(at 226.06 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 226.06 38.0999 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 226.06 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -11233,8 +11348,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 50.8 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 50.8 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11243,21 +11358,21 @@
 		(fields_autoplaced yes)
 		(uuid "607c94a6-d7f5-4a1c-b2f1-58513f5459e5")
 		(property "Reference" "D49"
-			(at 53.34 115.5699 90)
+			(at 53.34 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 53.34 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 53.34 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -11321,8 +11436,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 245.11 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 245.11 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11331,21 +11446,21 @@
 		(fields_autoplaced yes)
 		(uuid "61921018-97fd-430d-9e77-148375229992")
 		(property "Reference" "D92"
-			(at 247.65 168.9099 90)
+			(at 247.65 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 247.65 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 247.65 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -11409,8 +11524,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 353.06 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 353.06 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11419,21 +11534,21 @@
 		(fields_autoplaced yes)
 		(uuid "62226b48-8a47-4941-afee-c2656f64448f")
 		(property "Reference" "D97"
-			(at 355.6 168.9099 90)
+			(at 355.6 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 355.6 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 355.6 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -11497,8 +11612,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 309.88 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 309.88 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11507,21 +11622,21 @@
 		(fields_autoplaced yes)
 		(uuid "645be7af-f08e-4398-8c5f-3739316b1fea")
 		(property "Reference" "D95"
-			(at 312.42 168.9099 90)
+			(at 312.42 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 312.42 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 312.42 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -11653,8 +11768,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 93.98 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 93.98 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11663,21 +11778,21 @@
 		(fields_autoplaced yes)
 		(uuid "64e46eb2-3898-4dbb-950f-c1f6010d7651")
 		(property "Reference" "D85"
-			(at 96.52 168.9099 90)
+			(at 96.52 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 96.52 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 96.52 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -11809,8 +11924,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 50.8 63.5 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 50.8 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11819,21 +11934,21 @@
 		(fields_autoplaced yes)
 		(uuid "66ac8549-6e8b-4d29-af26-90070a2514ce")
 		(property "Reference" "D16"
-			(at 53.34 62.2299 90)
+			(at 53.34 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 53.34 64.7699 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 53.34 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -12033,8 +12148,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 223.52 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 223.52 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12043,21 +12158,21 @@
 		(fields_autoplaced yes)
 		(uuid "6d67542e-ee9e-4eea-ac15-d72b48159de9")
 		(property "Reference" "D57"
-			(at 226.06 115.5699 90)
+			(at 226.06 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 226.06 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 226.06 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -12257,8 +12372,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 29.21 63.5 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 29.21 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12267,21 +12382,21 @@
 		(fields_autoplaced yes)
 		(uuid "73025662-9b37-401b-b512-ada9b9fd2b79")
 		(property "Reference" "D15"
-			(at 31.75 62.2299 90)
+			(at 31.75 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 31.75 64.7699 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 31.75 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -12345,8 +12460,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 353.06 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 353.06 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12355,21 +12470,21 @@
 		(fields_autoplaced yes)
 		(uuid "737c056f-a9f0-40bc-b812-4d2283ca27b0")
 		(property "Reference" "D63"
-			(at 355.6 115.5699 90)
+			(at 355.6 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 355.6 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 355.6 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -12501,8 +12616,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 331.47 63.5 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 331.47 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12511,21 +12626,21 @@
 		(fields_autoplaced yes)
 		(uuid "76b809ac-104e-4c1b-a9cc-222c17d9e8b0")
 		(property "Reference" "D29"
-			(at 334.01 62.2299 90)
+			(at 334.01 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 334.01 64.7699 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 334.01 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -12589,8 +12704,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 180.34 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 180.34 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12599,21 +12714,21 @@
 		(fields_autoplaced yes)
 		(uuid "7838e3b4-945e-42b3-89a8-e16e78d16277")
 		(property "Reference" "D73"
-			(at 182.88 142.2399 90)
+			(at 182.88 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 182.88 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 182.88 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -12677,8 +12792,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 266.7 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 266.7 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12687,21 +12802,21 @@
 		(fields_autoplaced yes)
 		(uuid "7aeac630-8e5b-4b0c-b9b7-d9ccbb2b306e")
 		(property "Reference" "D59"
-			(at 269.24 115.5699 90)
+			(at 269.24 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 269.24 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 269.24 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -12765,8 +12880,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 266.7 196.85 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 266.7 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12775,21 +12890,21 @@
 		(fields_autoplaced yes)
 		(uuid "7af19142-573d-412e-9ff2-f2f0788f3329")
 		(property "Reference" "D106"
-			(at 269.24 195.5799 90)
+			(at 269.24 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 269.24 198.1199 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 269.24 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -12921,8 +13036,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 29.21 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 29.21 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12931,21 +13046,21 @@
 		(fields_autoplaced yes)
 		(uuid "7c9385cb-5b43-49bd-8965-09600f1ba2e0")
 		(property "Reference" "D30"
-			(at 31.75 88.8999 90)
+			(at 31.75 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 31.75 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 31.75 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -13009,8 +13124,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 137.16 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 137.16 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13019,21 +13134,21 @@
 		(fields_autoplaced yes)
 		(uuid "8034e47e-eb1b-4f5c-a242-bc0da9e576a9")
 		(property "Reference" "D53"
-			(at 139.7 115.5699 90)
+			(at 139.7 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 139.7 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 139.7 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -13097,8 +13212,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 245.11 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 245.11 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13107,21 +13222,21 @@
 		(fields_autoplaced yes)
 		(uuid "8072dc5e-3fc5-4f4e-8de7-113b8b0575a4")
 		(property "Reference" "D40"
-			(at 247.65 88.8999 90)
+			(at 247.65 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 247.65 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 247.65 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -13185,8 +13300,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 331.47 196.85 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 331.47 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13195,21 +13310,21 @@
 		(fields_autoplaced yes)
 		(uuid "80d50a18-9c86-46d2-9b81-d9f523bf59f5")
 		(property "Reference" "D109"
-			(at 334.01 195.5799 90)
+			(at 334.01 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 334.01 198.1199 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 334.01 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -13341,8 +13456,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 137.16 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 137.16 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13351,21 +13466,21 @@
 		(fields_autoplaced yes)
 		(uuid "81c67d48-b283-4e5c-8183-3fd1e78b7e59")
 		(property "Reference" "D71"
-			(at 139.7 142.2399 90)
+			(at 139.7 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 139.7 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 139.7 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -13497,8 +13612,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 72.39 196.85 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 72.39 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13507,21 +13622,21 @@
 		(fields_autoplaced yes)
 		(uuid "85eedb87-e70e-49f8-a45d-668f13da64a7")
 		(property "Reference" "D102"
-			(at 74.93 195.5799 90)
+			(at 74.93 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 74.93 198.1199 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 74.93 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -13925,8 +14040,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 180.34 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 180.34 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13935,21 +14050,21 @@
 		(fields_autoplaced yes)
 		(uuid "8ce99b40-d5cc-4ed9-a7c9-70b2c6b43aae")
 		(property "Reference" "D89"
-			(at 182.88 168.9099 90)
+			(at 182.88 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 182.88 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 182.88 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -14149,8 +14264,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 201.93 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 201.93 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14159,21 +14274,21 @@
 		(fields_autoplaced yes)
 		(uuid "8f8d9767-049a-4dd7-87a6-4902668c2a18")
 		(property "Reference" "D90"
-			(at 204.47 168.9099 90)
+			(at 204.47 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 204.47 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 204.47 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -14441,8 +14556,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 201.93 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 201.93 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14451,21 +14566,21 @@
 		(fields_autoplaced yes)
 		(uuid "94103eb0-ea09-4a0c-a96d-f3a3a2ec61e5")
 		(property "Reference" "D56"
-			(at 204.47 115.5699 90)
+			(at 204.47 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 204.47 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 204.47 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -14597,8 +14712,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 137.16 63.5 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 137.16 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14607,21 +14722,21 @@
 		(fields_autoplaced yes)
 		(uuid "97178755-76f0-4614-b0a1-3a5baffb3bb6")
 		(property "Reference" "D20"
-			(at 139.7 62.2299 90)
+			(at 139.7 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 139.7 64.7699 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 139.7 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -14685,8 +14800,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 137.16 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 137.16 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14695,21 +14810,21 @@
 		(fields_autoplaced yes)
 		(uuid "973726c8-44d9-4933-8c83-8dcf314ccc43")
 		(property "Reference" "D87"
-			(at 139.7 168.9099 90)
+			(at 139.7 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 139.7 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 139.7 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -14773,8 +14888,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 180.34 63.5 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 180.34 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14783,21 +14898,21 @@
 		(fields_autoplaced yes)
 		(uuid "97f0f8cb-3a98-420f-9106-2004d22e9aaf")
 		(property "Reference" "D22"
-			(at 182.88 62.2299 90)
+			(at 182.88 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 182.88 64.7699 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 182.88 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -14861,8 +14976,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 223.52 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 223.52 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14871,21 +14986,21 @@
 		(fields_autoplaced yes)
 		(uuid "984643bc-3b78-4f98-94e3-524da2806212")
 		(property "Reference" "D39"
-			(at 226.06 88.8999 90)
+			(at 226.06 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 226.06 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 226.06 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -14949,8 +15064,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 309.88 63.5 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 309.88 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14959,21 +15074,21 @@
 		(fields_autoplaced yes)
 		(uuid "9856a3b0-857a-47bc-a0e2-12ccd40dd0a2")
 		(property "Reference" "D28"
-			(at 312.42 62.2299 90)
+			(at 312.42 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 312.42 64.7699 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 312.42 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -15037,8 +15152,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 331.47 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 331.47 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15047,21 +15162,21 @@
 		(fields_autoplaced yes)
 		(uuid "9ae50b1a-dd4e-41be-adb2-e583a59a080b")
 		(property "Reference" "D79"
-			(at 334.01 142.2399 90)
+			(at 334.01 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 334.01 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 334.01 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -15125,8 +15240,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 374.65 196.85 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 374.65 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15135,21 +15250,21 @@
 		(fields_autoplaced yes)
 		(uuid "9b1ae006-d54c-4f9d-8997-ec0a47ab913d")
 		(property "Reference" "D111"
-			(at 377.19 195.5799 90)
+			(at 377.19 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 377.19 198.1199 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 377.19 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -15213,8 +15328,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 245.11 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 245.11 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15223,21 +15338,21 @@
 		(fields_autoplaced yes)
 		(uuid "9ce5f39a-fdd1-4f4e-a300-2931f3ec2393")
 		(property "Reference" "D58"
-			(at 247.65 115.5699 90)
+			(at 247.65 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 247.65 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 247.65 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -15369,8 +15484,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 158.75 63.5 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 158.75 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15379,21 +15494,21 @@
 		(fields_autoplaced yes)
 		(uuid "9df62035-ec0b-4fab-a1c4-f9502b57c76f")
 		(property "Reference" "D21"
-			(at 161.29 62.2299 90)
+			(at 161.29 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 161.29 64.7699 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 161.29 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -15525,8 +15640,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 72.39 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 72.39 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15535,21 +15650,21 @@
 		(fields_autoplaced yes)
 		(uuid "a07fcb91-a624-482e-bb09-61e5c65b29ec")
 		(property "Reference" "D84"
-			(at 74.93 168.9099 90)
+			(at 74.93 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 74.93 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 74.93 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -15681,8 +15796,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 396.24 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 396.24 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15691,21 +15806,21 @@
 		(fields_autoplaced yes)
 		(uuid "a2577f50-2263-4613-9a92-b5fe2a19a24a")
 		(property "Reference" "D99"
-			(at 398.78 168.9099 90)
+			(at 398.78 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 398.78 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 398.78 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -15837,8 +15952,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 180.34 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 180.34 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15847,21 +15962,21 @@
 		(fields_autoplaced yes)
 		(uuid "a721a12d-f87b-465f-a49c-dc7e2448ef40")
 		(property "Reference" "D37"
-			(at 182.88 88.8999 90)
+			(at 182.88 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 182.88 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 182.88 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -15925,8 +16040,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 115.57 36.83 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 115.57 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15935,21 +16050,21 @@
 		(fields_autoplaced yes)
 		(uuid "a8faa42a-abc4-4801-87c0-71b3199e4c12")
 		(property "Reference" "D4"
-			(at 118.11 35.5599 90)
+			(at 118.11 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 118.11 38.0999 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 118.11 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -16013,8 +16128,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 72.39 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 72.39 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16023,21 +16138,21 @@
 		(fields_autoplaced yes)
 		(uuid "a98f5a27-068f-41bb-b4ae-e9e4b1824379")
 		(property "Reference" "D50"
-			(at 74.93 115.5699 90)
+			(at 74.93 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 74.93 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 74.93 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -16169,8 +16284,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 223.52 63.5 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 223.52 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16179,21 +16294,21 @@
 		(fields_autoplaced yes)
 		(uuid "acd8dabc-d03a-4398-860b-0a4e5478ffc4")
 		(property "Reference" "D24"
-			(at 226.06 62.2299 90)
+			(at 226.06 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 226.06 64.7699 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 226.06 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -16393,8 +16508,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 309.88 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 309.88 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16403,21 +16518,21 @@
 		(fields_autoplaced yes)
 		(uuid "adcb5b8e-499a-4b5c-9f1a-aae261acb71e")
 		(property "Reference" "D43"
-			(at 312.42 88.8999 90)
+			(at 312.42 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 312.42 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 312.42 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -16481,8 +16596,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 137.16 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 137.16 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16491,21 +16606,21 @@
 		(fields_autoplaced yes)
 		(uuid "adf2dce3-44ba-4ccc-b827-e8611529b632")
 		(property "Reference" "D35"
-			(at 139.7 88.8999 90)
+			(at 139.7 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 139.7 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 139.7 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -16637,8 +16752,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 245.11 196.85 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 245.11 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16647,21 +16762,21 @@
 		(fields_autoplaced yes)
 		(uuid "afe02eb3-dccc-4dfa-8283-f7b591d07617")
 		(property "Reference" "D105"
-			(at 247.65 195.5799 90)
+			(at 247.65 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 247.65 198.1199 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 247.65 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -16997,8 +17112,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 353.06 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 353.06 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17007,21 +17122,21 @@
 		(fields_autoplaced yes)
 		(uuid "b8df52cf-7b34-4604-9fdf-e48403e96102")
 		(property "Reference" "D80"
-			(at 355.6 142.2399 90)
+			(at 355.6 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 355.6 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 355.6 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -17221,8 +17336,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 288.29 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 288.29 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17231,21 +17346,21 @@
 		(fields_autoplaced yes)
 		(uuid "ba851ee3-456d-4384-a338-145df7e883bc")
 		(property "Reference" "D42"
-			(at 290.83 88.8999 90)
+			(at 290.83 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 290.83 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 290.83 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -17649,8 +17764,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 72.39 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 72.39 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17659,21 +17774,21 @@
 		(fields_autoplaced yes)
 		(uuid "c0b6e91b-c5da-4097-a832-c18f4eaab771")
 		(property "Reference" "D32"
-			(at 74.93 88.8999 90)
+			(at 74.93 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 74.93 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 74.93 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -17805,8 +17920,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 245.11 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 245.11 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17815,21 +17930,21 @@
 		(fields_autoplaced yes)
 		(uuid "c20cd475-09d3-4021-80f8-ec802e5a9768")
 		(property "Reference" "D76"
-			(at 247.65 142.2399 90)
+			(at 247.65 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 247.65 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 247.65 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -18029,8 +18144,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 115.57 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 115.57 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18039,21 +18154,21 @@
 		(fields_autoplaced yes)
 		(uuid "c755b919-90d6-4d19-a676-653b109f3b95")
 		(property "Reference" "D86"
-			(at 118.11 168.9099 90)
+			(at 118.11 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 118.11 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 118.11 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -18593,8 +18708,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 374.65 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 374.65 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18603,21 +18718,21 @@
 		(fields_autoplaced yes)
 		(uuid "cec6be9c-d29c-4d66-90f7-5d0636ae509e")
 		(property "Reference" "D81"
-			(at 377.19 142.2399 90)
+			(at 377.19 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 377.19 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 377.19 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -18749,8 +18864,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 29.21 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 29.21 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18759,21 +18874,21 @@
 		(fields_autoplaced yes)
 		(uuid "d273dbe7-7b13-4e58-a8c1-3b2fb065909c")
 		(property "Reference" "D66"
-			(at 31.75 142.2399 90)
+			(at 31.75 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 31.75 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 31.75 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -18905,8 +19020,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 266.7 36.83 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 266.7 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18915,21 +19030,21 @@
 		(fields_autoplaced yes)
 		(uuid "d45ce4f7-1bda-4ff4-bf6f-5bb910579cc1")
 		(property "Reference" "D11"
-			(at 269.24 35.5599 90)
+			(at 269.24 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 269.24 38.0999 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 269.24 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -19197,8 +19312,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 288.29 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 288.29 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19207,21 +19322,21 @@
 		(fields_autoplaced yes)
 		(uuid "d6c88696-bda3-4b17-81fe-4981fd7c2274")
 		(property "Reference" "D60"
-			(at 290.83 115.5699 90)
+			(at 290.83 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 290.83 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 290.83 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -19285,8 +19400,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 266.7 170.18 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 266.7 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19295,21 +19410,21 @@
 		(fields_autoplaced yes)
 		(uuid "d6fadbf2-27b8-454a-be85-4c2919790896")
 		(property "Reference" "D93"
-			(at 269.24 168.9099 90)
+			(at 269.24 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 269.24 171.4499 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 269.24 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -19373,8 +19488,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 93.98 36.83 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 93.98 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19383,21 +19498,21 @@
 		(fields_autoplaced yes)
 		(uuid "d7839308-89da-45a9-814e-40a66b265704")
 		(property "Reference" "D3"
-			(at 96.52 35.5599 90)
+			(at 96.52 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 96.52 38.0999 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 96.52 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -19461,8 +19576,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 93.98 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 93.98 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19471,21 +19586,21 @@
 		(fields_autoplaced yes)
 		(uuid "d7f3b36a-fbd0-4579-b548-d293c252c3aa")
 		(property "Reference" "D51"
-			(at 96.52 115.5699 90)
+			(at 96.52 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 96.52 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 96.52 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -19617,8 +19732,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 115.57 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 115.57 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19627,21 +19742,21 @@
 		(fields_autoplaced yes)
 		(uuid "dbda79d4-0e4e-4bf1-b1e6-8b16a06d3258")
 		(property "Reference" "D70"
-			(at 118.11 142.2399 90)
+			(at 118.11 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 118.11 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 118.11 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -19705,8 +19820,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 396.24 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 396.24 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19715,21 +19830,21 @@
 		(fields_autoplaced yes)
 		(uuid "dd70dc7c-2cbc-4fbb-8d30-ad98ff02e7c8")
 		(property "Reference" "D65"
-			(at 398.78 115.5699 90)
+			(at 398.78 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 398.78 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 398.78 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -19861,8 +19976,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 374.65 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 374.65 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19871,21 +19986,21 @@
 		(fields_autoplaced yes)
 		(uuid "decdeba7-7b89-4d9e-a379-ba4dc312d9d0")
 		(property "Reference" "D64"
-			(at 377.19 115.5699 90)
+			(at 377.19 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 377.19 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 377.19 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -20221,8 +20336,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 50.8 196.85 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 50.8 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20231,21 +20346,21 @@
 		(fields_autoplaced yes)
 		(uuid "e5d71866-8eaa-4017-9b0b-5cff81278c7c")
 		(property "Reference" "D101"
-			(at 53.34 195.5799 90)
+			(at 53.34 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 53.34 198.1199 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 53.34 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -20377,8 +20492,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 158.75 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 158.75 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20387,21 +20502,21 @@
 		(fields_autoplaced yes)
 		(uuid "ec53130f-215a-4651-997c-269ad6f2a3ef")
 		(property "Reference" "D54"
-			(at 161.29 115.5699 90)
+			(at 161.29 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 161.29 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 161.29 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -20465,8 +20580,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 137.16 196.85 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 137.16 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20475,21 +20590,21 @@
 		(fields_autoplaced yes)
 		(uuid "eeb98b2b-1beb-4042-ba38-c955da0bbe05")
 		(property "Reference" "D103"
-			(at 139.7 195.5799 90)
+			(at 139.7 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 139.7 198.1199 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 139.7 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -20553,8 +20668,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 201.93 63.5 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 201.93 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20563,21 +20678,21 @@
 		(fields_autoplaced yes)
 		(uuid "eff4cada-3c9d-4557-86fa-258c2abfc42c")
 		(property "Reference" "D23"
-			(at 204.47 62.2299 90)
+			(at 204.47 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 204.47 64.7699 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 204.47 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -20709,31 +20824,30 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 353.06 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 353.06 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f1f919ab-9798-4d60-8723-df7b2fe4a9ac")
 		(property "Reference" "D45"
-			(at 355.6 88.8999 90)
+			(at 356.108 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 355.6 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 356.108 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -20865,8 +20979,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 245.11 36.83 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 245.11 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20875,21 +20989,21 @@
 		(fields_autoplaced yes)
 		(uuid "f2e9a4af-4d48-48ad-a228-4aec0312fd8d")
 		(property "Reference" "D10"
-			(at 247.65 35.5599 90)
+			(at 247.65 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 247.65 38.0999 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 247.65 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -21089,8 +21203,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 353.06 196.85 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 353.06 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21099,21 +21213,21 @@
 		(fields_autoplaced yes)
 		(uuid "f52088c0-38f8-4f7f-bd16-04203590b8eb")
 		(property "Reference" "D110"
-			(at 355.6 195.5799 90)
+			(at 355.6 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 355.6 198.1199 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 355.6 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -21177,8 +21291,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 288.29 63.5 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 288.29 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21187,21 +21301,21 @@
 		(fields_autoplaced yes)
 		(uuid "f61f54e5-cdd5-4ac2-b3a5-51773d5e8d71")
 		(property "Reference" "D27"
-			(at 290.83 62.2299 90)
+			(at 290.83 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 290.83 64.7699 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 290.83 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -21401,8 +21515,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 266.7 63.5 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 266.7 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21411,21 +21525,21 @@
 		(fields_autoplaced yes)
 		(uuid "f8512432-192d-4d0d-aff4-d8a4a0c02616")
 		(property "Reference" "D26"
-			(at 269.24 62.2299 90)
+			(at 269.24 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 269.24 64.7699 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 269.24 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -21489,8 +21603,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 201.93 143.51 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 201.93 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21499,21 +21613,21 @@
 		(fields_autoplaced yes)
 		(uuid "f91af917-21d8-4b3e-8abe-6f1d44e01166")
 		(property "Reference" "D74"
-			(at 204.47 142.2399 90)
+			(at 204.47 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 204.47 144.7799 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 204.47 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -21577,8 +21691,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 374.65 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 374.65 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21587,21 +21701,21 @@
 		(fields_autoplaced yes)
 		(uuid "fa92e8f5-36e3-4a02-8e06-c148643b4506")
 		(property "Reference" "D46"
-			(at 377.19 88.8999 90)
+			(at 377.19 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 377.19 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 377.19 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -21665,8 +21779,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 266.7 90.17 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 266.7 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21675,21 +21789,21 @@
 		(fields_autoplaced yes)
 		(uuid "fd3917da-40fd-4681-a9c6-e4d96367551a")
 		(property "Reference" "D41"
-			(at 269.24 88.8999 90)
+			(at 269.24 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 269.24 91.4399 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 269.24 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -21753,8 +21867,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 288.29 196.85 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 288.29 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21763,21 +21877,21 @@
 		(fields_autoplaced yes)
 		(uuid "fd5e0755-cbfb-4f0b-8819-214ca1518c9f")
 		(property "Reference" "D107"
-			(at 290.83 195.5799 90)
+			(at 290.83 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 290.83 198.1199 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 290.83 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -21841,8 +21955,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 201.93 36.83 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 201.93 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21851,21 +21965,21 @@
 		(fields_autoplaced yes)
 		(uuid "fdd5d262-48d2-4952-96a4-cca9afae637a")
 		(property "Reference" "D8"
-			(at 204.47 35.5599 90)
+			(at 204.47 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 204.47 38.0999 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 204.47 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -21929,8 +22043,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 309.88 116.84 90)
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148W,(2)")
+		(at 309.88 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21939,21 +22053,21 @@
 		(fields_autoplaced yes)
 		(uuid "ffcf22e4-1d47-456b-b2e2-ced76105f06c")
 		(property "Reference" "D61"
-			(at 312.42 115.5699 90)
+			(at 312.42 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 312.42 118.1099 90)
+		(property "Value" "Switching,1N4148W,(2)"
+			(at 312.42 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
