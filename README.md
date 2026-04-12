@@ -29,6 +29,10 @@ You can find full [preview here](https://kicanvas.org/?repo=https%3A%2F%2Fgithub
 - Main 97x - Cherry MX xyz (tactile)
 - Multimedia 12x - Kailh Choc V2 Low Profile Switch Brown (tactile)
 
+## Sockets
+
+- Kailh MX HotSwap - https://42keebs.eu/shop/parts/kailh-mx-hot-swap-sockets/
+
 ## Roller
 
 - EVQWGD001
